@@ -410,6 +410,9 @@ def truncation(curr_patient, los, column_order):
     
     curr_patient['admissionheight'] = [h] + [np.nan]*(len(curr_patient)-1)
     curr_patient['admissionweight'] = [w] + [np.nan]*(len(curr_patient)-1)
+    curr_patient = curr_patient[column_order]
+
+    curr_patient = curr_patient[~curr_patient[curr_patient.columns[1:]].isnull().all(axis=1)]
 
     return curr_patient[column_order].sort_values(by='itemoffset')
 
