@@ -386,6 +386,20 @@ def populate_root(eicu_path, task_list, splits, patients, mapper, min_records=15
     print("70-15-15 train-validation-test split?", splits is not None)
     n = len(patients)
 
+    p = patients.copy()
+    p['hospitaldischargestatus']=p['hospitaldischargestatus'].fillna('')
+    p['unitdischargestatus']=p['unitdischargestatus'].fillna('')
+    p1=p[(p['unitdischargestatus']=='Expired') & (p['hospitaldischargestatus']!='Expired')]
+    p2=p[(p['unitdischargestatus']=='') & (p['hospitaldischargestatus']=='Alive')]
+    p=pd.concat([p1,p2])
+    em = dict(zip(mapper['unitstayid'], mapper['episode']))
+    def get_ts(x):
+        if x in em:
+            return em[x]
+        return ''
+    p['stay'] = p['patientunitstayid'].apply(get_ts)
+    contradict=set(p['stay'])
+
     for i,(stay, min_time, los, file_length, status, hstatus) in enumerate(
             zip(patients['stay'], patients['min_time'], patients['los'], patients['file_length'], patients['status'], patients['hstatus'])
         ):
@@ -395,7 +409,10 @@ def populate_root(eicu_path, task_list, splits, patients, mapper, min_records=15
             continue
 
         for task in task_list:
+            if task in ['ihm','decomp'] and filename in contradict:
+                continue
             append_functions[task](stay, min_time, los, status, hstatus, listfiles[task])
+
         if do_pheno:
             unitstayid = mapper.loc[stay]['unitstayid']
             append_pheno(stay, los, listfiles['pheno'], pheno, unitstayid)
