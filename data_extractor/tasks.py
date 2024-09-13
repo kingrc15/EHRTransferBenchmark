@@ -136,12 +136,12 @@ def split(name, eicu_path, write=False):
     len_tr = 0
     len_val = 0
     len_test = 0
-    non_split = name.split("_")[0]+"/"
+    non_split = name[:-7]+'/'
     pats = dataframe_from_csv(os.path.join(eicu_path, 'patient.csv.gz'), index_col=False)
     train_list = dataframe_from_csv(os.path.join(non_split, 'train_listfile.csv'), index_col=False)
     test_list = dataframe_from_csv(os.path.join(non_split, 'test_listfile.csv'), index_col=False)
     val_list = dataframe_from_csv(os.path.join(non_split, 'val_listfile.csv'), index_col=False)
-    hospitals = dataframe_from_csv(os.path.join(eicu_path, 'hospital.csv'), index_col=False)
+    hospitals = dataframe_from_csv(os.path.join(eicu_path, 'hospital.csv.gz'), index_col=False)
     mapper_df = pd.read_csv('resources/episode_mapper.csv')
     mapper = dict(zip(mapper_df['episode'], mapper_df['unitstayid']))
     del mapper_df
@@ -387,10 +387,10 @@ def populate_root(eicu_path, task_list, splits, patients, mapper, min_records=15
     n = len(patients)
 
     p = patients.copy()
-    p['hospitaldischargestatus']=p['hospitaldischargestatus'].fillna('')
-    p['unitdischargestatus']=p['unitdischargestatus'].fillna('')
-    p1=p[(p['unitdischargestatus']=='Expired') & (p['hospitaldischargestatus']!='Expired')]
-    p2=p[(p['unitdischargestatus']=='') & (p['hospitaldischargestatus']=='Alive')]
+    p['hstatus']=p['hstatus'].fillna('')
+    p['status']=p['status'].fillna('')
+    p1=p[(p['status']=='Expired') & (p['hstatus']!='Expired')]
+    p2=p[(p['status']=='') & (p['hstatus']=='Alive')]
     p=pd.concat([p1,p2])
     em = dict(zip(mapper['unitstayid'], mapper['episode']))
     def get_ts(x):
