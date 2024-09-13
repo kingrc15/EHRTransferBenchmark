@@ -34,8 +34,8 @@ Ensure the eICU dataset CSVs are available on the disk.
 - Nurseassessment into na.csv
 - Merges these four csv files into one timeseries.csv for each patient stay
 - Create a `root/` directory within the task directory
-- Truncate data only to a patient's ICU stay, rename files to unique episode number, clips features, and throw out patients with under 15 records iff a task_dir is specified.
-- Creates timeseries_info.csv file which stores information to determine eligibility for each task iff a task_dir is specified.
+- Truncate data only to a patient's ICU stay, rename files to unique episode number, clips features, and throw out patients with under 15 records
+- Creates timeseries_info.csv file which stores information to determine eligibility for each task
 
 > python data_extraction_root.py --eicu_dir "directory of csv files" --output_dir "directory to save the extracted data" --task_dir "directory to save modified data and task listfiles"
 
