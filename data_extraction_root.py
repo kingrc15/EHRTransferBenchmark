@@ -45,15 +45,8 @@ def data_extraction_root(args):
 def main():
     parser = argparse.ArgumentParser(description="Create data for all tasks")
     parser.add_argument('--eicu_dir', type=str, help="Path to eICU dataset")
-    parser.add_argument('--output_dir', type=str, help="Directory where the created data should be stored.",
-    default="/data/datasets/eICU2MIMIC/output/"
-    )
-    parser.add_argument('--eicu_dir', type=str, help="Path to eICU dataset", 
-        default="/data/datasets/physionet.org/files/eicu-crd/2.0"
-    )
-    parser.add_argument('--task_dir', type=str, help="Directory where the task directories should be created",
-        default="/data/datasets/eICU2MIMIC/new_split/"
-    )
+    parser.add_argument('--output_dir', type=str, help="Directory where the created data should be stored.")
+    parser.add_argument('--task_dir', type=str, help="Directory where the task directories should be created")
     
     args, _ = parser.parse_known_args()
 
