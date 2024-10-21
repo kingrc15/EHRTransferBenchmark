@@ -1,0 +1,244 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m No relevant files were detected in the specified directory. No code will be logged to your run.
+Experiment dir: ./exp/Test_phen_west
+['/data/datasets/mimic3-benchmarks/data/phenotyping', '/data/datasets/eICU2MIMIC/phenotyping_split']
+------------------------------------
+Task: 1, Epoch: 1
+Train: epoch: 1, loss = 0.4310084009170532
+Train: epoch: 1, loss = 0.41858877439051867
+Train: epoch: 1, loss = 0.413625750169158
+Train: epoch: 1, loss = 0.4116819124110043
+Train: epoch: 1, loss = 0.4097989751845598
+Train: epoch: 1, loss = 0.4081987637653947
+Train: epoch: 1, loss = 0.40587097124329635
+Train: epoch: 1, loss = 0.4039729816187173
+Train: epoch: 1, loss = 0.4022064502371682
+Train: epoch: 1, loss = 0.39967294278740884
+Train: epoch: 1, loss = 0.39784536447714675
+Train: epoch: 1, loss = 0.39703428048019607
+Train: epoch: 1, loss = 0.3956065785827545
+Train: epoch: 1, loss = 0.3943581199379904
+Train: epoch: 1, loss = 0.3932071483830611
+Train: epoch: 1, loss = 0.3919478128477931
+Train: epoch: 1, loss = 0.39059300903011773
+Train: epoch: 1, loss = 0.38943125574539106
+Train:  Epoch 1, Loss=0.38931705406792144, AUC-ROC Macro=0.6673884862666262, AUC-ROC Micro=0.7544462648081387
+-------------
+Eval task: 1
+Eval:  Epoch 1, Loss=0.37285149842500687, AUC-ROC Macro=0.7143967291804866, AUC-ROC Micro=0.7792698411077853
+Eval task: 2
+Eval:  Epoch 1, Loss=0.32386522740125656, AUC-ROC Macro=0.49481145262196674, AUC-ROC Micro=0.5581520524463033
+------------------------------------
+Task: 1, Epoch: 2
+Train: epoch: 2, loss = 0.36899161607027053
+Train: epoch: 2, loss = 0.37112299773842095
+Train: epoch: 2, loss = 0.3704807952294747
+Train: epoch: 2, loss = 0.37168089520186187
+Train: epoch: 2, loss = 0.3715415231734514
+Train: epoch: 2, loss = 0.3710812240963181
+Train: epoch: 2, loss = 0.3703032022608178
+Train: epoch: 2, loss = 0.3701011973340064
+Train: epoch: 2, loss = 0.3701233686755101
+Train: epoch: 2, loss = 0.36851661990582946
+Train: epoch: 2, loss = 0.36879275408658113
+Train: epoch: 2, loss = 0.36843864076460403
+Train: epoch: 2, loss = 0.3678835228372079
+Train: epoch: 2, loss = 0.3678584998367088
+Train: epoch: 2, loss = 0.36790993277728556
+Train: epoch: 2, loss = 0.36802914179861546
+Train: epoch: 2, loss = 0.36783332529751694
+Train: epoch: 2, loss = 0.36802203133702277
+Train:  Epoch 2, Loss=0.36797347207354686, AUC-ROC Macro=0.725293583260074, AUC-ROC Micro=0.7918697251082818
+-------------
+Eval task: 1
+Eval:  Epoch 2, Loss=0.36236905430754024, AUC-ROC Macro=0.740361205337162, AUC-ROC Micro=0.7976868484154478
+Eval task: 2
+Eval:  Epoch 2, Loss=0.36868562549352646, AUC-ROC Macro=0.4979962958342917, AUC-ROC Micro=0.534554974600237
+------------------------------------
+Task: 1, Epoch: 3
+Train: epoch: 3, loss = 0.35960900731384754
+Train: epoch: 3, loss = 0.3621908763423562
+Train: epoch: 3, loss = 0.3635262960443894
+Train: epoch: 3, loss = 0.3638565813750029
+Train: epoch: 3, loss = 0.36215056194365025
+Train: epoch: 3, loss = 0.3605417956660191
+Train: epoch: 3, loss = 0.3606837545228856
+Train: epoch: 3, loss = 0.3606811406183988
+Train: epoch: 3, loss = 0.36023322181569206
+Train: epoch: 3, loss = 0.360719920642674
+Train: epoch: 3, loss = 0.3607295196164738
+Train: epoch: 3, loss = 0.3602687911503017
+Train: epoch: 3, loss = 0.3604228573349806
+Train: epoch: 3, loss = 0.3601527999447925
+Train: epoch: 3, loss = 0.35997438470025855
+Train: epoch: 3, loss = 0.36011230283882467
+Train: epoch: 3, loss = 0.3599005015150589
+Train: epoch: 3, loss = 0.3594224905098478
+Train:  Epoch 3, Loss=0.3595189306532216, AUC-ROC Macro=0.7452673059297155, AUC-ROC Micro=0.8048918020263822
+-------------
+Eval task: 1
+Eval:  Epoch 3, Loss=0.356358889490366, AUC-ROC Macro=0.7516434494820865, AUC-ROC Micro=0.8065461562555749
+Eval task: 2
+Eval:  Epoch 3, Loss=0.3543407917022705, AUC-ROC Macro=0.5003834469044511, AUC-ROC Micro=0.5260948388764752
+------------------------------------
+Task: 1, Epoch: 4
+Train: epoch: 4, loss = 0.3532307005673647
+Train: epoch: 4, loss = 0.35250041235238316
+Train: epoch: 4, loss = 0.35335332254568735
+Train: epoch: 4, loss = 0.35406529504805806
+Train: epoch: 4, loss = 0.35465158978104594
+Train: epoch: 4, loss = 0.3548071712379654
+Train: epoch: 4, loss = 0.35388967051037723
+Train: epoch: 4, loss = 0.35421117471531033
+Train: epoch: 4, loss = 0.3547824059095648
+Train: epoch: 4, loss = 0.3550630528330803
+Train: epoch: 4, loss = 0.35451721328226005
+Train: epoch: 4, loss = 0.35411062124495707
+Train: epoch: 4, loss = 0.3543601258328328
+Train: epoch: 4, loss = 0.35382589104452306
+Train: epoch: 4, loss = 0.3542343350549539
+Train: epoch: 4, loss = 0.35413002387620507
+Train: epoch: 4, loss = 0.35402105721918975
+Train: epoch: 4, loss = 0.35394385281950236
+Train:  Epoch 4, Loss=0.3541049166866857, AUC-ROC Macro=0.757004283012284, AUC-ROC Micro=0.8129939906634305
+-------------
+Eval task: 1
+Eval:  Epoch 4, Loss=0.35245635981361073, AUC-ROC Macro=0.757801511987339, AUC-ROC Micro=0.8119477301971979
+Eval task: 2
+Eval:  Epoch 4, Loss=0.36694515496492386, AUC-ROC Macro=0.4976672210166816, AUC-ROC Micro=0.5250259412564455
+------------------------------------
+Task: 1, Epoch: 5
+Train: epoch: 5, loss = 0.35362951032817364
+Train: epoch: 5, loss = 0.35114704214036463
+Train: epoch: 5, loss = 0.3505071692665418
+Train: epoch: 5, loss = 0.35100513929501176
+Train: epoch: 5, loss = 0.3512430830448866
+Train: epoch: 5, loss = 0.35249963742991286
+Train: epoch: 5, loss = 0.35195676121328556
+Train: epoch: 5, loss = 0.35094492164440455
+Train: epoch: 5, loss = 0.3492566935800844
+Train: epoch: 5, loss = 0.3491214851811528
+Train: epoch: 5, loss = 0.3494289710101756
+Train: epoch: 5, loss = 0.3500885114694635
+Train: epoch: 5, loss = 0.34989507134717246
+Train: epoch: 5, loss = 0.349969235749117
+Train: epoch: 5, loss = 0.34991892029345034
+Train: epoch: 5, loss = 0.3499456295743585
+Train: epoch: 5, loss = 0.349636436499217
+Train: epoch: 5, loss = 0.34991528330163824
+Train:  Epoch 5, Loss=0.3498358232078389, AUC-ROC Macro=0.7658899793493759, AUC-ROC Micro=0.8190057864777277
+-------------
+Eval task: 1
+Eval:  Epoch 5, Loss=0.3513090672592322, AUC-ROC Macro=0.7606892457289155, AUC-ROC Micro=0.8141361293408655
+Eval task: 2
+Eval:  Epoch 5, Loss=0.38200270384550095, AUC-ROC Macro=0.49467547868683065, AUC-ROC Micro=0.5284376053457092
+------------------------------------
+Task: 1, Epoch: 6
+Train: epoch: 6, loss = 0.34378819093108176
+Train: epoch: 6, loss = 0.34233067993074656
+Train: epoch: 6, loss = 0.3454268800963958
+Train: epoch: 6, loss = 0.34561445919796824
+Train: epoch: 6, loss = 0.3449185227453709
+Train: epoch: 6, loss = 0.3445198705544074
+Train: epoch: 6, loss = 0.3440325325727463
+Train: epoch: 6, loss = 0.34501579103991387
+Train: epoch: 6, loss = 0.34544169213208886
+Train: epoch: 6, loss = 0.34595318903028965
+Train: epoch: 6, loss = 0.34625230447812516
+Train: epoch: 6, loss = 0.34634131778031585
+Train: epoch: 6, loss = 0.34642355039715766
+Train: epoch: 6, loss = 0.34566747648375373
+Train: epoch: 6, loss = 0.34577738379438716
+Train: epoch: 6, loss = 0.34597792678046974
+Train: epoch: 6, loss = 0.3460839813597062
+Train: epoch: 6, loss = 0.3463755441208681
+Train:  Epoch 6, Loss=0.34639963199134566, AUC-ROC Macro=0.7728075123936055, AUC-ROC Micro=0.8237073792847956
+-------------
+Eval task: 1
+Eval:  Epoch 6, Loss=0.35076184446612996, AUC-ROC Macro=0.7633135719161039, AUC-ROC Micro=0.8157269335107509
+Eval task: 2
+Eval:  Epoch 6, Loss=0.3756925016641617, AUC-ROC Macro=0.4930904956020423, AUC-ROC Micro=0.5361886605945069
+-------------------------
+Testing task: 1
+-------------------------
+Test:  Epoch 6, Loss=0.35310118397076923, AUC-ROC Macro=0.7639679564145897, AUC-ROC Micro=0.8152619368905578
+-------------------------
+Testing task: 2
+-------------------------
+Test:  Epoch 6, Loss=0.3782350569963455, AUC-ROC Macro=0.4813274044069801, AUC-ROC Micro=0.5318733460399838
+------------------------------------
+Task: 2, Epoch: 1
+Train: epoch: 1, loss = 0.26431160762906075
+Train: epoch: 1, loss = 0.2542718699947
+Train: epoch: 1, loss = 0.24912489026784898
+Train:  Epoch 1, Loss=0.24605549941885135, AUC-ROC Macro=0.5689276440507192, AUC-ROC Micro=0.7477844676643839
+-------------
+Eval task: 1
+Eval:  Epoch 1, Loss=0.4622114859521389, AUC-ROC Macro=0.7044267011964409, AUC-ROC Micro=0.7043028480403895
+Eval task: 2
+Eval:  Epoch 1, Loss=0.23200783133506775, AUC-ROC Macro=0.6439945103711154, AUC-ROC Micro=0.786847440567103
+------------------------------------
+Task: 2, Epoch: 2
+Train: epoch: 2, loss = 0.23041366562247276
+Train: epoch: 2, loss = 0.2279243080690503
+Train: epoch: 2, loss = 0.22717197991907598
+Train:  Epoch 2, Loss=0.22681584079716832, AUC-ROC Macro=0.6654162110824678, AUC-ROC Micro=0.8040679818970152
+-------------
+Eval task: 1
+Eval:  Epoch 2, Loss=0.4855899860461553, AUC-ROC Macro=0.6699115993897702, AUC-ROC Micro=0.6737928243276521
+Eval task: 2
+Eval:  Epoch 2, Loss=0.22573895007371902, AUC-ROC Macro=0.6784949325525443, AUC-ROC Micro=0.8034029577226268
+------------------------------------
+Task: 2, Epoch: 3
+Train: epoch: 3, loss = 0.22368425004184245
+Train: epoch: 3, loss = 0.22235745307058097
+Train: epoch: 3, loss = 0.22140698596835137
+Train:  Epoch 3, Loss=0.22094481421720993, AUC-ROC Macro=0.7062438679715473, AUC-ROC Micro=0.8185618465456082
+-------------
+Eval task: 1
+Eval:  Epoch 3, Loss=0.5006141625344753, AUC-ROC Macro=0.6434040230099244, AUC-ROC Micro=0.6520152460886095
+Eval task: 2
+Eval:  Epoch 3, Loss=0.22399188205599785, AUC-ROC Macro=0.6953040855757325, AUC-ROC Micro=0.8090131067979205
+------------------------------------
+Task: 2, Epoch: 4
+Train: epoch: 4, loss = 0.2137399560213089
+Train: epoch: 4, loss = 0.2151999542117119
+Train: epoch: 4, loss = 0.21476896996299424
+Train:  Epoch 4, Loss=0.21563501852116224, AUC-ROC Macro=0.7408998407023617, AUC-ROC Micro=0.8304482716793551
+-------------
+Eval task: 1
+Eval:  Epoch 4, Loss=0.518417913466692, AUC-ROC Macro=0.6277157279930807, AUC-ROC Micro=0.6448498963347224
+Eval task: 2
+Eval:  Epoch 4, Loss=0.22169220820069313, AUC-ROC Macro=0.7062616310532712, AUC-ROC Micro=0.8138622026364366
+------------------------------------
+Task: 2, Epoch: 5
+Train: epoch: 5, loss = 0.2148881898447871
+Train: epoch: 5, loss = 0.2135099870339036
+Train: epoch: 5, loss = 0.21185716794182857
+Train:  Epoch 5, Loss=0.21185239421117294, AUC-ROC Macro=0.759373302266934, AUC-ROC Micro=0.8386859684177163
+-------------
+Eval task: 1
+Eval:  Epoch 5, Loss=0.5245710536837578, AUC-ROC Macro=0.6162616997732924, AUC-ROC Micro=0.6351557969468341
+Eval task: 2
+Eval:  Epoch 5, Loss=0.2215166613459587, AUC-ROC Macro=0.6991564292275296, AUC-ROC Micro=0.8161306676986897
+------------------------------------
+Task: 2, Epoch: 6
+Train: epoch: 6, loss = 0.20844722453504802
+Train: epoch: 6, loss = 0.2057782302238047
+Train: epoch: 6, loss = 0.2082929194966952
+Train:  Epoch 6, Loss=0.2081237921831931, AUC-ROC Macro=0.7684127289343178, AUC-ROC Micro=0.8463003309537178
+-------------
+Eval task: 1
+Eval:  Epoch 6, Loss=0.5259039103984833, AUC-ROC Macro=0.6210754799010737, AUC-ROC Micro=0.6403964235212501
+Eval task: 2
+Eval:  Epoch 6, Loss=0.2206340841948986, AUC-ROC Macro=0.703096135435285, AUC-ROC Micro=0.8179370264254153
+-------------------------
+Testing task: 1
+-------------------------
+Test:  Epoch 6, Loss=0.5261220373213291, AUC-ROC Macro=0.6265251359280362, AUC-ROC Micro=0.6428776357756875
+-------------------------
+Testing task: 2
+-------------------------
+Test:  Epoch 6, Loss=0.21887677162885666, AUC-ROC Macro=0.7320580531814498, AUC-ROC Micro=0.8206419648677455
+{'0': {'precision': 0.41964285714285715, 'recall': 0.35932721712538224, 'f1-score': 0.38714991762767714, 'support': 1308}, '1': {'precision': 0.5694444444444444, 'recall': 0.20398009950248755, 'f1-score': 0.30036630036630035, 'support': 402}, '2': {'precision': 0.35, 'recall': 0.010638297872340425, 'f1-score': 0.02064896755162242, 'support': 658}, '3': {'precision': 0.5, 'recall': 0.0005025125628140704, 'f1-score': 0.0010040160642570282, 'support': 1990}, '4': {'precision': 0.23160173160173161, 'recall': 0.2655086848635236, 'f1-score': 0.24739884393063583, 'support': 806}, '5': {'precision': 0.21428571428571427, 'recall': 0.0038560411311053984, 'f1-score': 0.007575757575757576, 'support': 778}, '6': {'precision': 0.48104956268221577, 'recall': 0.12672811059907835, 'f1-score': 0.20060790273556234, 'support': 1302}, '7': {'precision': 0.03184713375796178, 'recall': 0.01179245283018868, 'f1-score': 0.01721170395869191, 'support': 424}, '8': {'precision': 1.0, 'recall': 0.0030413625304136255, 'f1-score': 0.006064281382656156, 'support': 1644}, '9': {'precision': 0.6153846153846154, 'recall': 0.003938946331856229, 'f1-score': 0.007827788649706457, 'support': 2031}, '10': {'precision': 0.5862068965517241, 'recall': 0.029668411867364748, 'f1-score': 0.05647840531561462, 'support': 573}, '11': {'precision': 0.42857142857142855, 'recall': 0.02295918367346939, 'f1-score': 0.04358353510895884, 'support': 1176}, '12': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1770}, '13': {'precision': 0.3865336658354115, 'recall': 0.05970724191063174, 'f1-score': 0.10343677010343676, 'support': 2596}, '14': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1627}, '15': {'precision': 0.04678362573099415, 'recall': 0.01652892561983471, 'f1-score': 0.024427480916030534, 'support': 484}, '16': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 795}, '17': {'precision': 0.625, 'recall': 0.009191176470588236, 'f1-score': 0.018115942028985508, 'support': 544}, '18': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 351}, '19': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 262}, '20': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 563}, '21': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 837}, '22': {'precision': 0.7647058823529411, 'recall': 0.011970534069981584, 'f1-score': 0.02357207615593835, 'support': 1086}, '23': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 861}, '24': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 505}, 'micro avg': {'precision': 0.3453803555814631, 'recall': 0.04670318842864462, 'f1-score': 0.08228023885571448, 'support': 25373}, 'macro avg': {'precision': 0.2900423023336816, 'recall': 0.045573567958442425, 'f1-score': 0.05861878757887327, 'support': 25373}, 'weighted avg': {'precision': 0.3518158075784708, 'recall': 0.04670318842864462, 'f1-score': 0.060765159857286644, 'support': 25373}, 'samples avg': {'precision': 0.11314019097222222, 'recall': 0.03239101210077198, 'f1-score': 0.047588266948618514, 'support': 25373}}
+{'0': {'precision': 0.5704225352112676, 'recall': 0.413265306122449, 'f1-score': 0.4792899408284023, 'support': 196}, '1': {'precision': 0.52, 'recall': 0.1078838174273859, 'f1-score': 0.17869415807560138, 'support': 241}, '2': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 145}, '3': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 118}, '4': {'precision': 0.5373134328358209, 'recall': 0.17307692307692307, 'f1-score': 0.2618181818181818, 'support': 208}, '5': {'precision': 0.2222222222222222, 'recall': 0.02, 'f1-score': 0.03669724770642202, 'support': 100}, '6': {'precision': 1.0, 'recall': 0.00909090909090909, 'f1-score': 0.018018018018018018, 'support': 110}, '7': {'precision': 0.78125, 'recall': 0.18796992481203006, 'f1-score': 0.303030303030303, 'support': 133}, '8': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 89}, '9': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 75}, '10': {'precision': 0.3333333333333333, 'recall': 0.013333333333333334, 'f1-score': 0.025641025641025644, 'support': 75}, '11': {'precision': 0.5, 'recall': 0.011627906976744186, 'f1-score': 0.022727272727272724, 'support': 86}, '12': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 87}, '13': {'precision': 0.4, 'recall': 0.1095890410958904, 'f1-score': 0.17204301075268816, 'support': 73}, '14': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 45}, '15': {'precision': 0.8, 'recall': 0.5490196078431373, 'f1-score': 0.6511627906976745, 'support': 51}, '16': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 29}, '17': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 29}, '18': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 29}, '19': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 29}, '20': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 15}, '21': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 13}, '22': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 10}, '23': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 7}, '24': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1}, 'micro avg': {'precision': 0.5789473684210527, 'recall': 0.10481444332998997, 'f1-score': 0.17749469214437366, 'support': 1994}, 'macro avg': {'precision': 0.22658166094410576, 'recall': 0.0637942707911521, 'f1-score': 0.08596487797182359, 'support': 1994}, 'weighted avg': {'precision': 0.3625940236476838, 'recall': 0.10481444332998997, 'f1-score': 0.1439644452660848, 'support': 1994}, 'samples avg': {'precision': 0.1806640625, 'recall': 0.1211123511904762, 'f1-score': 0.13586619543650794, 'support': 1994}}

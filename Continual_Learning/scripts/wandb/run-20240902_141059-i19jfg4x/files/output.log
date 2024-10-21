@@ -1,0 +1,131 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m No relevant files were detected in the specified directory. No code will be logged to your run.
+Experiment dir: ./exp/Test_los_midwest_baseline
+['/data/datasets/mimic3-benchmarks/data/length-of-stay', '/data/datasets/eICU2MIMIC/length-of-stay_split']
+val_listfile.csv
+midwest_val.csv
+test_listfile.csv
+midwest_test.csv
+train_listfile.csv
+------------------------------------
+Task: 1, Epoch: 1
+Train: epoch: 1, loss = 2.1827956300973894
+Train: epoch: 1, loss = 2.1431858205795287
+Train: epoch: 1, loss = 2.1190189401308697
+Train: epoch: 1, loss = 2.1008509650826452
+Train: epoch: 1, loss = 2.093139203071594
+Train: epoch: 1, loss = 2.0875742268562316
+Train: epoch: 1, loss = 2.081129928316389
+Train: epoch: 1, loss = 2.0772624579072
+Train: epoch: 1, loss = 2.073256963690122
+Train: epoch: 1, loss = 2.069191971361637
+Train: epoch: 1, loss = 2.0679231133244254
+Train: epoch: 1, loss = 2.0666937704384325
+Train: epoch: 1, loss = 2.0646371688751075
+Train: epoch: 1, loss = 2.0626079315798624
+Train: epoch: 1, loss = 2.0620077164173125
+Train: epoch: 1, loss = 2.0602673294395206
+Train: epoch: 1, loss = 2.0594600790388444
+Train: epoch: 1, loss = 2.0587027263641358
+Train: epoch: 1, loss = 2.0580617801452936
+Train: epoch: 1, loss = 2.0581619524657726
+Train: epoch: 1, loss = 2.0576260547694707
+Train: epoch: 1, loss = 2.0572805895588613
+Train: epoch: 1, loss = 2.056374987622966
+Train: epoch: 1, loss = 2.0558522135267654
+Train: epoch: 1, loss = 2.0554758987426758
+Train: epoch: 1, loss = 2.05509559656565
+Train: epoch: 1, loss = 2.0550150389141506
+Train: epoch: 1, loss = 2.053966124696391
+Train: epoch: 1, loss = 2.0537366837057576
+Train: epoch: 1, loss = 2.0524711756308873
+Train: epoch: 1, loss = 2.0519298338697802
+Train: epoch: 1, loss = 2.0512086296454073
+Train: epoch: 1, loss = 2.050685004610004
+Train: epoch: 1, loss = 2.050002541647238
+Train: epoch: 1, loss = 2.050026924133301
+Train: epoch: 1, loss = 2.0496114980677764
+Train: epoch: 1, loss = 2.0489221583830344
+Train: epoch: 1, loss = 2.0483464050763533
+Train: epoch: 1, loss = 2.047937022203054
+Train: epoch: 1, loss = 2.0478329258263113
+Train: epoch: 1, loss = 2.0479614901397287
+Train: epoch: 1, loss = 2.0473994467371988
+Train: epoch: 1, loss = 2.0468854305633277
+Train:  Epoch 1, Loss=2.046461301394871, Cohen Kappa=0.37636407585473397, MAD=0.7177066690131628
+-------------
+Eval task: 1
+Eval:  Epoch 1, Loss=2.032260639914151, Cohen Kappa=0.42211280673067086, MAD=0.734125007354206
+Eval task: 2
+Eval:  Epoch 1, Loss=1.979350087971523, Cohen Kappa=0.012229911927388981, MAD=0.757444154125951
+-------------------------
+Testing task: 1
+-------------------------
+Test:  Epoch 1, Loss=2.053288763967054, Cohen Kappa=0.34271533508433705, MAD=0.7335360616795333
+-------------------------
+Testing task: 2
+-------------------------
+Test:  Epoch 1, Loss=1.9449962233674938, Cohen Kappa=0.0015397393231814105, MAD=0.7563851721947756
+midwest_train.csv
+------------------------------------
+Task: 2, Epoch: 1
+Train: epoch: 1, loss = 1.962048282623291
+Train: epoch: 1, loss = 1.9646905133128165
+Train: epoch: 1, loss = 1.955372347633044
+Train: epoch: 1, loss = 1.9561372672021389
+Train: epoch: 1, loss = 1.952923578262329
+Train: epoch: 1, loss = 1.953921094040076
+Train: epoch: 1, loss = 1.9507419572557723
+Train: epoch: 1, loss = 1.9506331066787244
+Train: epoch: 1, loss = 1.9523988158173031
+Train: epoch: 1, loss = 1.95263491243124
+Train: epoch: 1, loss = 1.9512645093961196
+Train: epoch: 1, loss = 1.9502187815805276
+Train: epoch: 1, loss = 1.9503811926566637
+Train: epoch: 1, loss = 1.9496238928181784
+Train: epoch: 1, loss = 1.9497918164730073
+Train: epoch: 1, loss = 1.948759904280305
+Train: epoch: 1, loss = 1.9488294199284386
+Train: epoch: 1, loss = 1.9495636629396014
+Train: epoch: 1, loss = 1.9502965777171286
+Train: epoch: 1, loss = 1.9503374314904214
+Train: epoch: 1, loss = 1.9504921958843866
+Train: epoch: 1, loss = 1.949937591173432
+Train: epoch: 1, loss = 1.9500314876307612
+Train: epoch: 1, loss = 1.9501304756104947
+Train: epoch: 1, loss = 1.949699042749405
+Train: epoch: 1, loss = 1.9489856094121933
+Train: epoch: 1, loss = 1.9492436773909463
+Train: epoch: 1, loss = 1.9483079278043338
+Train: epoch: 1, loss = 1.9480300182515178
+Train: epoch: 1, loss = 1.947527640660604
+Train: epoch: 1, loss = 1.9479805778688
+Train: epoch: 1, loss = 1.948086564540863
+Train: epoch: 1, loss = 1.9479624782005946
+Train: epoch: 1, loss = 1.94803851814831
+Train: epoch: 1, loss = 1.948258616396359
+Train: epoch: 1, loss = 1.9483147011697293
+Train: epoch: 1, loss = 1.9486856588479635
+Train: epoch: 1, loss = 1.948414198536622
+Train: epoch: 1, loss = 1.948509397460864
+Train: epoch: 1, loss = 1.9487792759537697
+Train: epoch: 1, loss = 1.948635884654231
+Train: epoch: 1, loss = 1.9483194740187555
+Train: epoch: 1, loss = 1.9482903061079424
+Train:  Epoch 1, Loss=1.9481611745016916, Cohen Kappa=0.07878257298133806, MAD=0.6938813425162152
+-------------
+Eval task: 1
+Eval:  Epoch 1, Loss=2.14697789323741, Cohen Kappa=0.0053244535441207, MAD=0.7402424032160436
+Eval task: 2
+Eval:  Epoch 1, Loss=1.9506865205435917, Cohen Kappa=0.09088746909579926, MAD=0.6800655079676208
+-------------------------
+Testing task: 1
+-------------------------
+Test:  Epoch 1, Loss=2.0978679821409028, Cohen Kappa=0.002821475030196252, MAD=0.7394576049170656
+-------------------------
+Testing task: 2
+-------------------------
+Test:  Epoch 1, Loss=1.9248784883268948, Cohen Kappa=0.09536451081046404, MAD=0.6839194339901118
+Test:  Epoch 1, Loss=1.9248784883268948, Cohen Kappa=0.09536451081046404, MAD=0.6839194339901118
+Test:  Epoch 1, Loss=1.9248784883268948, Cohen Kappa=0.09536451081046404, MAD=0.6839194339901118
+Test:  Epoch 1, Loss=1.9248784883268948, Cohen Kappa=0.09536451081046404, MAD=0.6839194339901118

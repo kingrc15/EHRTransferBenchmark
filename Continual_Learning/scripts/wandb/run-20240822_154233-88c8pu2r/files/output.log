@@ -1,0 +1,47 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m No relevant files were detected in the specified directory. No code will be logged to your run.
+Experiment dir: ./exp/Test_ihm_west_baseline
+------------------------------------
+Task: 1, Epoch: 1
+Train: epoch: 1, loss = 0.5223017559945583
+Train: epoch: 1, loss = 0.4471573182567954
+Train: epoch: 1, loss = 0.41599346611648796
+Train: epoch: 1, loss = 0.39918259606231005
+Train: epoch: 1, loss = 0.3859408302120864
+Train: epoch: 1, loss = 0.3780153038787345
+Train: epoch: 1, loss = 0.36893306426171746
+Train: epoch: 1, loss = 0.3617261933069676
+Train: epoch: 1, loss = 0.35853315804567604
+Train:  Epoch 1, Loss=0.35815473182097574, AUC-ROC=0.738121545362328, AUC-PR=0.3097629092389407
+-------------
+Eval task: 1
+Traceback (most recent call last):
+  File "../tests/test.py", line 641, in <module>
+    main()
+  File "../tests/test.py", line 400, in main
+    TestLSTM().test_standard_lstm(
+  File "/home/grads/k/kingrc15/Continual_Learning/Continual_Learning/tests/test_standard_lstm.py", line 411, in test_standard_lstm
+    result = trainer.fit(
+  File "/home/grads/k/kingrc15/Continual_Learning/Continual_Learning/torchmimic/benchmarks/ihm/ihm_benchmark.py", line 197, in fit
+    self.logger.print_metrics(
+  File "/home/grads/k/kingrc15/Continual_Learning/Continual_Learning/torchmimic/loggers/base_logger.py", line 107, in print_metrics
+    result = meter.score()
+  File "/home/grads/k/kingrc15/Continual_Learning/Continual_Learning/torchmimic/metrics.py", line 213, in score
+    self.true = np.concatenate(self.true, axis=0)
+  File "<__array_function__ internals>", line 200, in concatenate
+ValueError: need at least one array to concatenate
+Traceback (most recent call last):
+  File "../tests/test.py", line 641, in <module>
+    main()
+  File "../tests/test.py", line 400, in main
+    TestLSTM().test_standard_lstm(
+  File "/home/grads/k/kingrc15/Continual_Learning/Continual_Learning/tests/test_standard_lstm.py", line 411, in test_standard_lstm
+    result = trainer.fit(
+  File "/home/grads/k/kingrc15/Continual_Learning/Continual_Learning/torchmimic/benchmarks/ihm/ihm_benchmark.py", line 197, in fit
+    self.logger.print_metrics(
+  File "/home/grads/k/kingrc15/Continual_Learning/Continual_Learning/torchmimic/loggers/base_logger.py", line 107, in print_metrics
+    result = meter.score()
+  File "/home/grads/k/kingrc15/Continual_Learning/Continual_Learning/torchmimic/metrics.py", line 213, in score
+    self.true = np.concatenate(self.true, axis=0)
+  File "<__array_function__ internals>", line 200, in concatenate
+ValueError: need at least one array to concatenate

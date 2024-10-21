@@ -1,0 +1,326 @@
+{
+    "os": "Linux-5.4.0-193-generic-x86_64-with-glibc2.31",
+    "python": "3.9.13",
+    "heartbeatAt": "2024-09-02T17:01:45.946668",
+    "startedAt": "2024-09-02T17:01:44.708630",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--region",
+        "4",
+        "--tasks",
+        "2",
+        "--ihm",
+        "--test",
+        "--rt",
+        "--i",
+        "5"
+    ],
+    "state": "running",
+    "program": "/home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/../tests/test.py",
+    "codePathLocal": null,
+    "codePath": "Continual_Learning/tests/test.py",
+    "git": {
+        "remote": "git@github.com:EthanVeselka/Continual_Learning.git",
+        "commit": "33678c35aa6dcf5507fad5aa218f86cb3a029873"
+    },
+    "email": null,
+    "root": "/home/grads/k/kingrc15/Continual_Learning",
+    "host": "cse-stmi-s1.cse.tamu.edu",
+    "username": "kingrc15",
+    "executable": "/home/grads/k/kingrc15/anaconda3/bin/python3",
+    "cpu_count": 24,
+    "cpu_count_logical": 48,
+    "cpu_freq": {
+        "current": 1.6951875,
+        "min": 1200.0,
+        "max": 2900.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2.199,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2.481,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.388,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.617,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.503,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.758,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2.5,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.445,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2.33,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.377,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.301,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2.259,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2.656,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.743,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.216,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.204,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.202,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.201,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.204,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.202,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.447,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.292,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.202,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.202,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2.199,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2.275,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.363,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2.237,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.501,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.744,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2.558,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.441,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2.049,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.364,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.3,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2.151,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 2.592,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.944,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.204,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.199,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.201,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.352,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.294,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 2900.0
+        },
+        {
+            "current": 1.201,
+            "min": 1200.0,
+            "max": 2900.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1823.9678688049316,
+            "used": 1220.7964096069336
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1080 Ti",
+    "gpu_count": 8,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce GTX 1080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce GTX 1080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce GTX 1080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce GTX 1080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce GTX 1080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce GTX 1080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce GTX 1080 Ti",
+            "memory_total": 11811160064
+        }
+    ],
+    "memory": {
+        "total": 503.7764663696289
+    }
+}

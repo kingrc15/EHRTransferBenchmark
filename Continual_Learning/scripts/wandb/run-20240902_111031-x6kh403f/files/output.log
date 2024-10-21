@@ -1,0 +1,140 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m No relevant files were detected in the specified directory. No code will be logged to your run.
+Experiment dir: ./exp/Test_ihm_west_baseline
+['/data/datasets/mimic3-benchmarks/data/in-hospital-mortality', '/data/datasets/eICU2MIMIC/ihm_split']
+------------------------------------
+Task: 1, Epoch: 1
+Train: epoch: 1, loss = 0.47106406956911084
+Train: epoch: 1, loss = 0.4109830808173865
+Train: epoch: 1, loss = 0.37905523254846535
+Train: epoch: 1, loss = 0.3682698308583349
+Train: epoch: 1, loss = 0.3653280085921288
+Train: epoch: 1, loss = 0.3563233744446188
+Train: epoch: 1, loss = 0.3496625442057848
+Train: epoch: 1, loss = 0.34443833931116385
+Train: epoch: 1, loss = 0.342314212574727
+Train:  Epoch 1, Loss=0.3415947365513956, AUC-ROC=0.7661959265872571, AUC-PR=0.3560948559932855
+-------------
+Eval task: 1
+Eval:  Epoch 1, Loss=0.3117750597496827, AUC-ROC=0.82805730918315, AUC-PR=0.46504481149009147
+Eval task: 2
+Eval:  Epoch 1, Loss=0.23344539744513376, AUC-ROC=0.8632147720982045, AUC-PR=0.6511595842030679
+------------------------------------
+Task: 1, Epoch: 2
+Train: epoch: 2, loss = 0.317475720141083
+Train: epoch: 2, loss = 0.3181253345683217
+Train: epoch: 2, loss = 0.317952879788354
+Train: epoch: 2, loss = 0.3111665234039538
+Train: epoch: 2, loss = 0.3132814304176718
+Train: epoch: 2, loss = 0.3128878970552857
+Train: epoch: 2, loss = 0.31097745585255326
+Train: epoch: 2, loss = 0.31129932760843076
+Train: epoch: 2, loss = 0.31033261521719396
+Train:  Epoch 2, Loss=0.3118559886590961, AUC-ROC=0.8126173285327372, AUC-PR=0.4635562667664166
+-------------
+Eval task: 1
+Eval:  Epoch 2, Loss=0.31877302130063373, AUC-ROC=0.8322870945676337, AUC-PR=0.4801371980022587
+Eval task: 2
+Eval:  Epoch 2, Loss=0.22397369359220778, AUC-ROC=0.8428274018753797, AUC-PR=0.6388285159407926
+------------------------------------
+Task: 1, Epoch: 3
+Train: epoch: 3, loss = 0.2975599116180092
+Train: epoch: 3, loss = 0.2970429371949285
+Train: epoch: 3, loss = 0.30210572293028237
+Train: epoch: 3, loss = 0.30544038680847735
+Train: epoch: 3, loss = 0.30615618581324816
+Train: epoch: 3, loss = 0.3066281172912568
+Train: epoch: 3, loss = 0.3057827585323581
+Train: epoch: 3, loss = 0.30640212100697684
+Train: epoch: 3, loss = 0.30571140956651005
+Train:  Epoch 3, Loss=0.3057762841300048, AUC-ROC=0.8216359503624037, AUC-PR=0.48437094651348206
+-------------
+Eval task: 1
+Eval:  Epoch 3, Loss=0.29918290426333743, AUC-ROC=0.8439958245454026, AUC-PR=0.5079249149484416
+Eval task: 2
+Eval:  Epoch 3, Loss=0.22894360550812312, AUC-ROC=0.8400900671428135, AUC-PR=0.6575444434978809
+------------------------------------
+Task: 1, Epoch: 4
+Train: epoch: 4, loss = 0.29429292745888236
+Train: epoch: 4, loss = 0.2892148309387267
+Train: epoch: 4, loss = 0.2987688948897024
+Train: epoch: 4, loss = 0.29739161806646736
+Train: epoch: 4, loss = 0.3018953685685992
+Train: epoch: 4, loss = 0.30101906415540725
+Train: epoch: 4, loss = 0.30215617244664045
+Train: epoch: 4, loss = 0.2984317404811736
+Train: epoch: 4, loss = 0.29675698804565603
+Train:  Epoch 4, Loss=0.2974980515001272, AUC-ROC=0.8340429111899476, AUC-PR=0.5069365056201678
+-------------
+Eval task: 1
+Eval:  Epoch 4, Loss=0.30195142328739166, AUC-ROC=0.837163505386764, AUC-PR=0.5042744108809736
+Eval task: 2
+Eval:  Epoch 4, Loss=0.23263715207576752, AUC-ROC=0.8363372695255852, AUC-PR=0.644451244402965
+-------------------------
+Testing task: 1
+-------------------------
+Test:  Epoch 4, Loss=0.2737179050842921, AUC-ROC=0.8397511490784159, AUC-PR=0.4536507315555829
+-------------------------
+Testing task: 2
+-------------------------
+Test:  Epoch 4, Loss=0.21595902953829085, AUC-ROC=0.820146350465301, AUC-PR=0.6129938545353912
+------------------------------------
+Task: 2, Epoch: 1
+Train: epoch: 1, loss = 0.2138705313531682
+Train: epoch: 1, loss = 0.22920423176838084
+Train: epoch: 1, loss = 0.219282565289177
+Train: epoch: 1, loss = 0.2136568394617643
+Train: epoch: 1, loss = 0.20732113439310343
+Train:  Epoch 1, Loss=0.20522101431423986, AUC-ROC=0.8320709915012445, AUC-PR=0.6043063337979129
+-------------
+Eval task: 1
+Eval:  Epoch 1, Loss=0.4415498698751132, AUC-ROC=0.8058021718064186, AUC-PR=0.4617491827671212
+Eval task: 2
+Eval:  Epoch 1, Loss=0.19730998149939946, AUC-ROC=0.8905405726667278, AUC-PR=0.6996012907449197
+------------------------------------
+Task: 2, Epoch: 2
+Train: epoch: 2, loss = 0.182454175488092
+Train: epoch: 2, loss = 0.1843322366126813
+Train: epoch: 2, loss = 0.18850435760958742
+Train: epoch: 2, loss = 0.19011731413309463
+Train: epoch: 2, loss = 0.19180823538079858
+Train:  Epoch 2, Loss=0.19390524583291985, AUC-ROC=0.8387527474115221, AUC-PR=0.6392370631968429
+-------------
+Eval task: 1
+Eval:  Epoch 2, Loss=0.3933573265870412, AUC-ROC=0.8109992233369434, AUC-PR=0.4589762962696261
+Eval task: 2
+Eval:  Epoch 2, Loss=0.18960192586694444, AUC-ROC=0.8894928459111486, AUC-PR=0.6960058794484149
+------------------------------------
+Task: 2, Epoch: 3
+Train: epoch: 3, loss = 0.18495072261430323
+Train: epoch: 3, loss = 0.19021884279558435
+Train: epoch: 3, loss = 0.18678359198849648
+Train: epoch: 3, loss = 0.18298923641559667
+Train: epoch: 3, loss = 0.18337594394106418
+Train:  Epoch 3, Loss=0.18454926279450934, AUC-ROC=0.8549785004621128, AUC-PR=0.6657006669622727
+-------------
+Eval task: 1
+Eval:  Epoch 3, Loss=0.4934837991992633, AUC-ROC=0.8023169854072849, AUC-PR=0.4500267185224515
+Eval task: 2
+Eval:  Epoch 3, Loss=0.18360998162201472, AUC-ROC=0.8952544940175992, AUC-PR=0.7095185012064262
+------------------------------------
+Task: 2, Epoch: 4
+Train: epoch: 4, loss = 0.16948163567110897
+Train: epoch: 4, loss = 0.17059896431863308
+Train: epoch: 4, loss = 0.1677212907963743
+Train: epoch: 4, loss = 0.1712224062718451
+Train: epoch: 4, loss = 0.18083984486479313
+Train:  Epoch 4, Loss=0.17985387632792021, AUC-ROC=0.8610173377292982, AUC-PR=0.6748591415152766
+-------------
+Eval task: 1
+Eval:  Epoch 4, Loss=0.45053133368492126, AUC-ROC=0.8111283702901442, AUC-PR=0.44688523882185066
+Eval task: 2
+Eval:  Epoch 4, Loss=0.19576863305909292, AUC-ROC=0.8875858813300865, AUC-PR=0.695340747468399
+-------------------------
+Testing task: 1
+-------------------------
+Test:  Epoch 4, Loss=0.4295368492603302, AUC-ROC=0.7976755343021187, AUC-PR=0.4024300313224408
+-------------------------
+Testing task: 2
+-------------------------
+Test:  Epoch 4, Loss=0.17861756256648473, AUC-ROC=0.8792250882207835, AUC-PR=0.6898704363632129

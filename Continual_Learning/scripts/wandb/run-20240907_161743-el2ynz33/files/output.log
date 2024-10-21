@@ -1,0 +1,92 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m No relevant files were detected in the specified directory. No code will be logged to your run.
+Experiment dir: ./exp/Test_decomp_northeast
+------------------------------------
+Task: 1, Epoch: 1
+Train: epoch: 1, loss = 0.10551772671286017
+Train: epoch: 1, loss = 0.09506146810599603
+Train: epoch: 1, loss = 0.09079202488375207
+Train: epoch: 1, loss = 0.08848330016422551
+Train: epoch: 1, loss = 0.08463743552507368
+Train: epoch: 1, loss = 0.08398685124528128
+Train: epoch: 1, loss = 0.08854757548625847
+Train: epoch: 1, loss = 0.08936173810201581
+Train: epoch: 1, loss = 0.08754799709946383
+Train: epoch: 1, loss = 0.08690619828441414
+Train: epoch: 1, loss = 0.08619456434352535
+Train: epoch: 1, loss = 0.0864678898305768
+Train: epoch: 1, loss = 0.08474870224514654
+Train: epoch: 1, loss = 0.0843342625666576
+Train: epoch: 1, loss = 0.08434864761750213
+Train: epoch: 1, loss = 0.08517584499328222
+Train: epoch: 1, loss = 0.0834820606063038
+Train: epoch: 1, loss = 0.08347855515677818
+Train: epoch: 1, loss = 0.08249983929886519
+Train: epoch: 1, loss = 0.08309840048819024
+Train: epoch: 1, loss = 0.08258926540190475
+Train: epoch: 1, loss = 0.08266717330329067
+Train: epoch: 1, loss = 0.08249283731179868
+Train: epoch: 1, loss = 0.08237761486107047
+Train: epoch: 1, loss = 0.082759763125272
+Train: epoch: 1, loss = 0.08287565202424257
+Train: epoch: 1, loss = 0.08306851016175372
+Train: epoch: 1, loss = 0.08304543078210762
+Train: epoch: 1, loss = 0.08349632844127161
+Train: epoch: 1, loss = 0.0834961701260084
+Train: epoch: 1, loss = 0.08344988748325118
+Train: epoch: 1, loss = 0.08401817547010978
+Train: epoch: 1, loss = 0.08377255049991866
+Train: epoch: 1, loss = 0.08410387636702474
+Train: epoch: 1, loss = 0.08433978489532767
+Train: epoch: 1, loss = 0.08404998625938283
+Train: epoch: 1, loss = 0.08382410939259775
+Train: epoch: 1, loss = 0.08388578820789055
+Train: epoch: 1, loss = 0.08383041068976477
+Train: epoch: 1, loss = 0.08345203084308742
+Train: epoch: 1, loss = 0.08318327121438726
+Train: epoch: 1, loss = 0.08308415226934206
+Train: epoch: 1, loss = 0.08306865691266234
+Train:  Epoch 1, Loss=0.08287636286285706, AUC-ROC=0.8221513647874195, AUC-PR=0.15314252957821606
+-------------
+Eval task: 1
+Eval:  Epoch 1, Loss=0.08794449109198718, AUC-ROC=0.8650689299575285, AUC-PR=0.21065458581438407
+Eval task: 2
+Eval:  Epoch 1, Loss=0.16937699488231114, AUC-ROC=0.7869154153395014, AUC-PR=0.16824871010111847
+Ratio of skipped batches:  0.0
+-------------------------
+Testing task: 1
+-------------------------
+Test:  Epoch 1, Loss=0.0899444837002726, AUC-ROC=0.8871405658014633, AUC-PR=0.25111965000801284
+Ratio of skipped batches:  0.0
+-------------------------
+Testing task: 2
+-------------------------
+Test:  Epoch 1, Loss=0.14307840221694537, AUC-ROC=0.781308909105811, AUC-PR=0.1257453752733249
+------------------------------------
+Task: 2, Epoch: 1
+Train: epoch: 1, loss = 0.1229123741062358
+Train: epoch: 1, loss = 0.1107204024051316
+Train: epoch: 1, loss = 0.10491366116019586
+Train: epoch: 1, loss = 0.10195825920556673
+Train: epoch: 1, loss = 0.10205713774822653
+Train: epoch: 1, loss = 0.1022743039073733
+Train: epoch: 1, loss = 0.10312517214599731
+Train: epoch: 1, loss = 0.10203498553339159
+Train: epoch: 1, loss = 0.10190566931799468
+Train: epoch: 1, loss = 0.10204560420894995
+Train:  Epoch 1, Loss=0.10164227146932057, AUC-ROC=0.8106879041545878, AUC-PR=0.23285345258496398
+-------------
+Eval task: 1
+Eval:  Epoch 1, Loss=0.07587105157817232, AUC-ROC=0.8599128709597093, AUC-PR=0.2314492751478034
+Eval task: 2
+Eval:  Epoch 1, Loss=0.07291883203600134, AUC-ROC=0.8062869710298801, AUC-PR=0.1916662735306724
+Ratio of skipped batches:  0.0
+-------------------------
+Testing task: 1
+-------------------------
+Test:  Epoch 1, Loss=0.08431595109467363, AUC-ROC=0.8355356143725721, AUC-PR=0.23476559381790202
+Ratio of skipped batches:  0.0
+-------------------------
+Testing task: 2
+-------------------------
+Test:  Epoch 1, Loss=0.10038605598466736, AUC-ROC=0.8601724682988514, AUC-PR=0.19200765038031675

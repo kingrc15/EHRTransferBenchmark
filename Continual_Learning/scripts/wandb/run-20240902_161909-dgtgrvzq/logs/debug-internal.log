@@ -1,0 +1,1325 @@
+2024-09-02 16:19:10,620 INFO    StreamThr :4187235 [internal.py:wandb_internal():85] W&B internal server running at pid: 4187235, started at: 2024-09-02 16:19:10.618432
+2024-09-02 16:19:10,634 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status
+2024-09-02 16:19:10,638 INFO    WriterThread:4187235 [datastore.py:open_for_write():87] open: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/run-dgtgrvzq.wandb
+2024-09-02 16:19:10,639 DEBUG   SenderThread:4187235 [sender.py:send():391] send: header
+2024-09-02 16:19:10,639 DEBUG   SenderThread:4187235 [sender.py:send():391] send: run
+2024-09-02 16:19:10,868 INFO    SenderThread:4187235 [dir_watcher.py:__init__():211] watching files in: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files
+2024-09-02 16:19:10,868 INFO    SenderThread:4187235 [sender.py:_start_run_threads():1200] run started: dgtgrvzq with start time 1725311949.812581
+2024-09-02 16:19:10,872 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: check_version
+2024-09-02 16:19:10,873 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: check_version
+2024-09-02 16:19:10,982 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: run_start
+2024-09-02 16:19:10,986 DEBUG   HandlerThread:4187235 [system_info.py:__init__():26] System info init
+2024-09-02 16:19:10,986 DEBUG   HandlerThread:4187235 [system_info.py:__init__():41] System info init done
+2024-09-02 16:19:10,987 INFO    HandlerThread:4187235 [system_monitor.py:start():194] Starting system monitor
+2024-09-02 16:19:10,987 INFO    SystemMonitor:4187235 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-09-02 16:19:10,987 INFO    HandlerThread:4187235 [system_monitor.py:probe():214] Collecting system info
+2024-09-02 16:19:10,988 INFO    SystemMonitor:4187235 [interfaces.py:start():188] Started cpu monitoring
+2024-09-02 16:19:10,988 INFO    SystemMonitor:4187235 [interfaces.py:start():188] Started disk monitoring
+2024-09-02 16:19:10,989 INFO    SystemMonitor:4187235 [interfaces.py:start():188] Started gpu monitoring
+2024-09-02 16:19:10,989 INFO    SystemMonitor:4187235 [interfaces.py:start():188] Started memory monitoring
+2024-09-02 16:19:10,990 INFO    SystemMonitor:4187235 [interfaces.py:start():188] Started network monitoring
+2024-09-02 16:19:11,028 DEBUG   HandlerThread:4187235 [system_info.py:probe():152] Probing system
+2024-09-02 16:19:11,029 DEBUG   HandlerThread:4187235 [system_info.py:_probe_git():137] Probing git
+2024-09-02 16:19:11,053 DEBUG   HandlerThread:4187235 [system_info.py:_probe_git():145] Probing git done
+2024-09-02 16:19:11,053 DEBUG   HandlerThread:4187235 [system_info.py:probe():200] Probing system done
+2024-09-02 16:19:11,053 DEBUG   HandlerThread:4187235 [system_monitor.py:probe():223] {'os': 'Linux-5.4.0-193-generic-x86_64-with-glibc2.31', 'python': '3.9.13', 'heartbeatAt': '2024-09-02T21:19:11.028827', 'startedAt': '2024-09-02T21:19:09.804105', 'docker': None, 'cuda': None, 'args': ('--region', '1', '--tasks', '2', '--ihm', '--b', '500', '--replay', '--test', '--rt', '--i', '5'), 'state': 'running', 'program': '/home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/../tests/test.py', 'codePathLocal': None, 'codePath': 'Continual_Learning/tests/test.py', 'git': {'remote': 'git@github.com:EthanVeselka/Continual_Learning.git', 'commit': '33678c35aa6dcf5507fad5aa218f86cb3a029873'}, 'email': None, 'root': '/home/grads/k/kingrc15/Continual_Learning', 'host': 'cse-stmi-s1.cse.tamu.edu', 'username': 'kingrc15', 'executable': '/home/grads/k/kingrc15/anaconda3/bin/python3', 'cpu_count': 24, 'cpu_count_logical': 48, 'cpu_freq': {'current': 2.479937499999999, 'min': 1200.0, 'max': 2900.0}, 'cpu_freq_per_core': [{'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.354, 'min': 1200.0, 'max': 2900.0}, {'current': 2.073, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.501, 'min': 1200.0, 'max': 2900.0}, {'current': 1.649, 'min': 1200.0, 'max': 2900.0}, {'current': 2.513, 'min': 1200.0, 'max': 2900.0}, {'current': 1.605, 'min': 1200.0, 'max': 2900.0}, {'current': 2.377, 'min': 1200.0, 'max': 2900.0}, {'current': 2.239, 'min': 1200.0, 'max': 2900.0}, {'current': 2.507, 'min': 1200.0, 'max': 2900.0}, {'current': 2.147, 'min': 1200.0, 'max': 2900.0}, {'current': 2.505, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 1.892, 'min': 1200.0, 'max': 2900.0}, {'current': 2.079, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 1.756, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 1.511, 'min': 1200.0, 'max': 2900.0}, {'current': 2.464, 'min': 1200.0, 'max': 2900.0}, {'current': 2.288, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}, {'current': 2.19, 'min': 1200.0, 'max': 2900.0}, {'current': 2.499, 'min': 1200.0, 'max': 2900.0}], 'disk': {'/': {'total': 1823.9678688049316, 'used': 1220.8204650878906}}, 'gpu': 'NVIDIA GeForce GTX 1080 Ti', 'gpu_count': 8, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}, {'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}, {'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}, {'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}, {'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}, {'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}, {'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}, {'name': 'NVIDIA GeForce GTX 1080 Ti', 'memory_total': 11811160064}], 'memory': {'total': 503.7764663696289}}
+2024-09-02 16:19:11,054 INFO    HandlerThread:4187235 [system_monitor.py:probe():224] Finished collecting system info
+2024-09-02 16:19:11,054 INFO    HandlerThread:4187235 [system_monitor.py:probe():227] Publishing system info
+2024-09-02 16:19:11,054 DEBUG   HandlerThread:4187235 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-09-02 16:19:11,867 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_created():271] file/dir created: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/conda-environment.yaml
+2024-09-02 16:19:21,754 DEBUG   HandlerThread:4187235 [system_info.py:_save_conda():224] Saving conda packages done
+2024-09-02 16:19:21,756 INFO    HandlerThread:4187235 [system_monitor.py:probe():229] Finished publishing system info
+2024-09-02 16:19:21,756 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:19:21,757 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: keepalive
+2024-09-02 16:19:21,757 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:19:21,757 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: keepalive
+2024-09-02 16:19:21,758 DEBUG   SenderThread:4187235 [sender.py:send():391] send: files
+2024-09-02 16:19:21,758 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-metadata.json with policy now
+2024-09-02 16:19:21,868 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/conda-environment.yaml
+2024-09-02 16:19:21,869 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_created():271] file/dir created: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/wandb-metadata.json
+2024-09-02 16:19:22,021 INFO    wandb-upload_0:4187235 [upload_job.py:push():130] Uploaded file /tmp/tmp2qeuyb1ywandb/yt093wh8-wandb-metadata.json
+2024-09-02 16:19:22,082 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: python_packages
+2024-09-02 16:19:22,082 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: python_packages
+2024-09-02 16:19:22,084 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:19:22,084 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:19:22,087 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:22,224 DEBUG   SenderThread:4187235 [sender.py:send():391] send: telemetry
+2024-09-02 16:19:22,225 DEBUG   SenderThread:4187235 [sender.py:send():391] send: config
+2024-09-02 16:19:22,869 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_created():271] file/dir created: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/requirements.txt
+2024-09-02 16:19:22,869 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_created():271] file/dir created: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:19:23,084 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:24,085 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:24,870 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:19:25,089 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:26,093 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:26,227 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:19:27,092 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:28,096 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:29,101 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:30,098 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:31,098 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:32,087 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:19:32,100 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:33,101 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:34,104 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:35,104 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:36,106 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:37,092 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:19:37,093 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:19:37,093 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:19:37,136 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:38,107 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:39,112 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:40,112 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:41,117 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:42,102 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:19:42,115 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:42,877 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/config.yaml
+2024-09-02 16:19:43,116 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:44,116 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:45,119 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:46,122 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:47,125 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:48,099 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:19:48,130 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:49,133 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:50,134 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:51,135 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:52,096 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:19:52,096 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:19:52,144 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:53,147 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:53,239 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:19:54,149 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:55,149 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:56,151 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:57,154 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:58,159 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:19:59,104 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:19:59,161 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:00,166 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:01,168 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:02,170 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:03,173 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:04,181 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:05,104 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:20:05,183 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:06,191 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:07,094 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:20:07,095 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:20:07,194 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:08,189 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:09,194 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:10,195 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:10,248 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:20:10,991 DEBUG   SystemMonitor:4187235 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-09-02 16:20:10,994 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:20:11,195 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:12,194 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:13,195 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:14,198 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:15,202 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:16,105 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:20:16,203 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:17,205 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:18,205 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:19,207 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:20,208 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:21,106 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:20:21,209 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:22,095 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:20:22,095 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:20:22,210 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:23,214 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:24,215 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:25,265 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:26,185 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:20:26,222 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:27,225 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:28,226 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:29,229 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:30,231 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:31,418 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:32,111 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:20:32,418 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:33,417 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:34,421 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:35,422 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:36,427 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:37,095 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:20:37,095 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:20:37,226 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:20:37,429 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:38,430 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:39,432 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:40,431 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:40,996 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:20:41,434 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:42,437 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:43,112 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:20:43,439 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:44,438 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:45,437 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:46,440 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:47,441 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:48,113 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:20:48,441 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:49,444 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:50,445 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:51,447 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:52,095 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:20:52,096 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:20:52,446 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:53,220 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:20:53,447 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:54,447 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:55,447 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:56,448 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:57,448 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:58,448 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:20:59,113 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:20:59,448 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:00,449 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:01,449 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:02,449 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:03,451 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:04,114 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:21:04,452 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:05,454 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:06,457 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:07,095 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:21:07,096 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:21:07,458 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:08,458 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:09,230 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:21:09,461 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:10,464 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:10,999 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:21:11,468 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:12,472 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:13,479 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:14,479 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:15,116 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:21:15,479 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:16,485 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:17,486 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:18,486 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:19,506 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:20,119 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:21:20,496 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:21,492 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:22,095 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:21:22,096 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:21:22,492 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:23,492 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:24,493 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:25,185 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:21:25,495 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:26,498 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:27,499 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:28,501 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:29,505 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:30,505 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:31,123 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:21:31,506 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:32,509 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:33,515 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:34,519 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:35,520 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:36,125 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:21:36,523 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:37,097 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:21:37,098 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:21:37,525 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:38,528 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:39,528 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:40,531 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:41,001 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:21:41,532 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:42,003 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:21:42,533 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:43,534 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:44,540 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:45,540 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:46,540 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:47,126 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:21:47,543 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:48,544 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:49,545 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:50,546 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:51,547 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:52,098 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:21:52,098 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:21:52,160 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:21:52,549 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:53,552 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:54,552 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:55,553 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:56,555 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:57,558 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:58,127 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:21:58,562 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:21:59,562 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:00,562 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:01,565 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:02,568 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:03,130 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:22:03,571 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:04,576 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:05,580 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:06,580 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:07,101 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:22:07,102 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:22:07,584 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:08,245 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:22:08,584 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:09,585 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:10,589 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:11,005 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:22:11,591 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:12,593 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:13,593 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:14,136 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:22:14,596 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:15,597 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:16,602 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:17,607 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:18,609 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:19,143 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:22:19,615 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:20,615 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:21,624 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:22,105 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:22:22,105 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:22:22,625 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:23,629 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:24,202 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:22:24,629 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:25,630 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:26,640 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:27,640 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:28,644 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:29,649 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:30,155 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:22:30,653 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:31,660 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:32,658 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:33,659 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:34,658 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:35,293 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:22:35,658 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:36,658 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:36,966 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:22:37,104 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:22:37,105 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:22:37,664 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:38,664 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:38,966 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:22:39,664 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:40,665 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:40,722 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:22:41,007 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:22:41,665 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:42,665 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:42,968 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:22:43,665 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:44,666 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:45,665 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:46,425 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:22:46,665 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:46,970 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:22:47,665 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:48,666 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:48,971 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:22:49,666 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:50,666 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:51,666 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:52,105 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:22:52,105 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:22:52,277 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:22:52,666 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:52,981 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:22:53,666 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:54,667 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:55,666 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:56,666 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:56,983 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:22:57,667 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:58,034 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:22:58,667 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:22:59,667 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:00,667 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:00,985 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:23:01,667 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:02,667 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:02,986 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:23:03,147 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:23:03,667 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:04,667 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:05,557 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:23:05,668 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:06,212 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:23:06,217 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:23:06,219 DEBUG   SenderThread:4187235 [sender.py:send():391] send: history
+2024-09-02 16:23:06,219 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:23:06,220 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:23:06,668 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:06,678 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:23:06,684 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:23:06,685 DEBUG   SenderThread:4187235 [sender.py:send():391] send: history
+2024-09-02 16:23:06,686 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:23:06,686 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:23:06,988 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:23:06,988 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_created():271] file/dir created: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/wandb-summary.json
+2024-09-02 16:23:07,105 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:23:07,105 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:23:07,668 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:08,215 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:23:08,668 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:08,989 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:23:09,669 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:10,668 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:11,011 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:23:11,669 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:12,669 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:12,991 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:23:13,647 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:23:13,692 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:14,669 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:14,993 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:23:15,669 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:16,669 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:17,669 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:18,669 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:18,995 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:23:19,161 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:23:19,669 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:20,669 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:21,670 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:22,105 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:23:22,106 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:23:22,670 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:22,996 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:23:23,670 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:24,190 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:23:24,670 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:25,670 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:26,670 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:26,998 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:23:27,670 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:28,671 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:28,999 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:23:29,671 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:30,037 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:23:30,671 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:31,671 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:32,672 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:33,001 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:23:33,671 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:34,672 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:35,672 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:35,980 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:23:36,672 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:37,003 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:23:37,105 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:23:37,106 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:23:37,672 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:38,672 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:39,318 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:23:39,672 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:39,690 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:23:39,696 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:23:39,697 DEBUG   SenderThread:4187235 [sender.py:send():391] send: history
+2024-09-02 16:23:39,698 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:23:39,701 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:23:40,004 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/wandb-summary.json
+2024-09-02 16:23:40,080 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:23:40,088 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:23:40,088 DEBUG   SenderThread:4187235 [sender.py:send():391] send: history
+2024-09-02 16:23:40,089 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:23:40,090 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:23:40,672 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:41,005 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:23:41,005 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/wandb-summary.json
+2024-09-02 16:23:41,013 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:23:41,015 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:23:41,672 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:42,672 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:43,006 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:23:43,673 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:44,673 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:45,006 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:23:45,673 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:46,557 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:23:46,674 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:47,673 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:48,674 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:49,012 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:23:49,674 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:50,674 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:51,674 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:52,105 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:23:52,106 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:23:52,239 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:23:52,674 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:53,010 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:23:53,674 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:54,674 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:55,011 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:23:55,674 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:56,674 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:57,674 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:58,228 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:23:58,675 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:23:59,013 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:23:59,675 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:00,704 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:01,675 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:02,675 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:03,015 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:24:03,677 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:04,119 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:24:04,676 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:05,675 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:06,676 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:07,023 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:24:07,105 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:24:07,106 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:24:07,676 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:08,676 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:09,024 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:24:09,486 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:24:09,676 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:10,677 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:11,015 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:24:11,646 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:24:11,676 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:12,073 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:24:12,079 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:24:12,080 DEBUG   SenderThread:4187235 [sender.py:send():391] send: history
+2024-09-02 16:24:12,080 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:24:12,082 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:24:12,474 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:24:12,480 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:24:12,481 DEBUG   SenderThread:4187235 [sender.py:send():391] send: history
+2024-09-02 16:24:12,481 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:24:12,482 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:24:12,677 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:13,026 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:24:13,026 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/wandb-summary.json
+2024-09-02 16:24:13,677 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:14,677 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:15,027 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:24:15,483 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:24:15,677 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:16,677 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:17,677 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:18,677 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:19,029 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:24:19,678 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:20,636 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:24:20,678 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:21,029 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:24:21,678 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:22,106 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:24:22,106 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:24:22,678 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:23,678 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:24,678 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:25,031 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:24:25,678 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:25,932 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:24:26,679 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:27,678 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:28,678 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:29,033 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:24:29,679 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:30,679 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:31,033 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:24:31,679 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:31,860 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:24:32,679 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:33,679 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:34,679 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:35,037 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:24:35,680 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:36,680 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:37,106 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:24:37,107 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:24:37,220 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:24:37,680 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:38,680 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:39,039 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:24:39,680 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:40,680 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:41,017 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:24:41,686 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:42,687 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:43,041 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:24:43,150 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:24:43,686 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:44,276 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:24:44,676 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:24:44,682 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:24:44,683 DEBUG   SenderThread:4187235 [sender.py:send():391] send: history
+2024-09-02 16:24:44,683 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:24:44,684 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:24:44,686 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:45,042 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:24:45,042 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/wandb-summary.json
+2024-09-02 16:24:45,091 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:24:45,098 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:24:45,098 DEBUG   SenderThread:4187235 [sender.py:send():391] send: history
+2024-09-02 16:24:45,099 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:24:45,099 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:24:45,460 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:24:45,687 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:46,042 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/wandb-summary.json
+2024-09-02 16:24:46,328 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:24:46,688 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:47,043 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:24:47,688 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:48,688 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:49,044 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:24:49,150 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:24:49,689 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:50,688 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:51,689 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:52,106 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:24:52,106 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:24:52,690 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:53,689 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:54,171 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:24:54,689 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:55,690 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:56,689 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:57,689 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:58,691 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:24:59,692 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:00,151 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:25:00,691 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:01,692 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:02,692 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:03,697 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:04,700 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:05,151 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:25:05,699 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:06,703 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:07,106 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:25:07,107 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:25:07,707 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:08,712 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:09,721 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:10,195 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:25:10,721 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:11,020 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:25:11,725 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:12,724 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:13,726 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:14,729 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:15,730 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:16,161 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:25:16,731 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:17,738 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:18,742 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:19,742 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:20,742 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:21,163 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:25:21,746 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:22,110 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:25:22,111 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:25:22,754 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:23,754 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:24,763 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:25,761 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:26,213 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:25:26,766 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:27,768 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:28,773 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:29,783 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:30,786 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:31,791 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:32,173 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:25:32,794 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:33,796 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:34,799 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:35,799 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:36,803 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:37,115 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:25:37,115 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:25:37,261 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:25:37,803 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:38,803 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:39,804 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:40,808 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:41,025 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:25:41,814 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:42,818 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:43,185 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:25:43,819 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:44,820 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:45,820 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:46,825 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:47,830 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:48,187 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:25:48,837 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:49,836 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:50,841 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:51,843 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:52,116 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:25:52,117 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:25:52,850 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:53,229 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:25:53,849 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:54,852 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:55,855 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:56,865 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:57,860 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:58,865 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:25:59,196 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:25:59,869 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:00,874 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:01,879 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:02,881 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:03,884 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:04,886 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:05,193 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:26:05,889 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:06,900 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:07,119 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:26:07,119 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:26:07,902 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:08,898 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:09,903 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:10,197 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:26:10,905 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:11,028 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:26:11,906 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:12,908 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:13,908 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:14,908 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:15,203 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:26:15,909 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:16,916 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:17,916 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:18,922 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:19,927 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:20,207 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:26:20,929 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:21,930 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:22,123 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:26:22,125 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:26:22,935 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:23,939 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:24,944 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:25,248 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:26:25,949 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:26,952 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:27,952 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:28,954 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:29,957 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:30,966 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:31,212 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:26:31,966 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:32,970 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:33,971 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:34,977 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:35,982 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:36,214 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:26:36,987 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:37,128 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:26:37,129 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:26:37,988 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:38,993 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:39,994 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:41,000 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:41,033 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:26:42,000 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:42,034 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:26:43,005 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:44,007 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:45,008 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:46,013 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:47,015 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:47,222 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:26:48,015 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:49,019 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:50,025 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:51,029 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:52,034 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:52,131 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:26:52,132 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:26:52,282 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:26:53,038 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:54,040 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:55,042 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:56,045 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:57,044 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:58,050 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:26:58,224 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:26:59,056 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:00,056 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:01,060 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:02,066 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:03,070 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:03,226 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:27:04,071 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:05,074 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:06,074 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:07,074 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:07,131 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:27:07,132 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:27:08,082 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:08,248 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:27:09,083 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:10,085 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:11,033 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:27:11,085 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:12,090 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:13,096 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:14,102 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:14,232 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:27:15,104 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:16,107 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:17,112 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:18,116 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:19,112 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:20,116 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:20,230 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:27:21,118 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:22,121 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:22,140 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:27:22,140 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:27:23,124 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:24,124 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:25,125 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:25,245 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:27:26,131 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:27,136 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:28,131 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:29,135 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:30,140 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:31,151 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:31,232 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:27:32,151 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:33,192 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:34,156 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:35,115 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:27:35,156 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:36,156 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:37,136 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:27:37,137 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:27:37,184 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:37,287 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:27:38,156 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:39,117 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:27:39,156 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:40,156 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:41,036 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:27:41,156 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:42,157 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:43,118 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:27:43,157 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:43,232 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:27:44,157 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:45,157 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:46,157 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:47,120 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:27:47,157 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:48,157 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:49,157 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:49,232 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:27:50,158 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:51,122 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:27:51,158 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:52,136 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:27:52,137 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:27:52,158 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:53,158 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:54,159 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:54,268 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:27:55,158 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:56,158 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:57,124 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:27:57,159 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:58,159 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:59,159 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:27:59,532 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:28:00,159 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:01,126 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:28:01,159 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:02,159 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:03,160 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:04,160 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:05,100 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:28:05,128 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:28:05,160 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:06,160 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:07,137 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:28:07,137 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:28:07,180 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:08,160 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:09,160 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:10,160 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:10,677 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:28:11,047 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:28:11,130 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:28:11,160 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:12,160 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:13,161 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:14,161 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:15,132 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:28:15,161 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:16,161 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:16,261 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:28:17,161 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:18,162 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:19,134 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:28:19,162 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:20,161 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:21,162 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:21,879 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:28:21,931 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:28:22,137 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:28:22,137 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:28:22,163 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:22,369 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:28:22,376 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:28:22,377 DEBUG   SenderThread:4187235 [sender.py:send():391] send: history
+2024-09-02 16:28:22,377 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:28:22,378 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:28:22,946 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:28:22,953 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:28:22,954 DEBUG   SenderThread:4187235 [sender.py:send():391] send: history
+2024-09-02 16:28:22,954 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:28:22,955 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:28:23,136 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:28:23,136 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/wandb-summary.json
+2024-09-02 16:28:23,162 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:24,162 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:25,136 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:28:25,162 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:26,162 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:26,957 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:28:27,163 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:28,162 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:29,138 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:28:29,163 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:30,163 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:31,163 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:31,996 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:28:32,163 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:33,140 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:28:33,163 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:34,164 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:35,163 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:36,163 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:37,137 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:28:37,138 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:28:37,142 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:28:37,163 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:37,188 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:28:38,164 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:39,164 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:40,167 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:41,048 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:28:41,164 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:42,164 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:42,238 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:28:43,145 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:28:43,164 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:44,164 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:45,165 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:46,165 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:47,149 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:28:47,165 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:48,165 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:48,237 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:28:49,165 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:50,165 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:51,151 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:28:51,165 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:52,137 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:28:52,138 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:28:52,165 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:53,165 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:54,165 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:54,238 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:28:55,166 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:56,166 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:57,153 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:28:57,166 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:58,166 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:59,166 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:28:59,964 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:29:00,166 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:01,155 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:29:01,166 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:02,166 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:03,166 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:04,166 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:05,157 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:29:05,166 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:05,452 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:29:06,167 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:07,139 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:29:07,140 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:29:07,180 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:08,167 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:09,158 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:29:09,167 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:10,168 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:10,566 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:29:11,054 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:29:11,167 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:11,828 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:29:12,170 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:12,424 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:29:12,424 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:29:12,425 DEBUG   SenderThread:4187235 [sender.py:send():391] send: history
+2024-09-02 16:29:12,426 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:29:12,427 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:29:12,997 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:29:13,003 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:29:13,004 DEBUG   SenderThread:4187235 [sender.py:send():391] send: history
+2024-09-02 16:29:13,004 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:29:13,006 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:29:13,161 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:29:13,161 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/wandb-summary.json
+2024-09-02 16:29:13,170 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:14,170 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:15,162 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:29:15,170 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:16,007 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:29:16,170 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:17,170 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:18,170 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:19,163 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:29:19,171 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:20,170 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:21,171 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:21,461 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:29:22,137 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:29:22,138 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:29:22,176 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:23,165 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:29:23,171 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:24,171 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:25,173 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:26,173 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:26,985 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:29:27,167 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:29:27,172 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:28,173 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:29,179 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:30,179 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:31,169 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:29:31,179 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:32,179 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:32,238 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:29:33,180 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:34,180 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:35,180 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:36,180 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:37,138 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:29:37,138 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:29:37,172 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:29:37,180 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:37,259 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:29:38,180 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:39,180 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:40,181 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:41,053 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:29:41,174 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:29:41,181 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:42,181 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:43,181 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:43,239 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:29:44,182 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:45,176 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:29:45,184 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:46,181 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:47,181 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:48,182 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:48,239 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:29:49,178 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:29:49,182 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:50,182 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:51,182 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:52,138 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:29:52,138 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:29:52,182 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:53,182 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:53,908 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:29:54,183 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:55,181 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:29:55,183 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:56,183 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:57,183 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:58,183 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:59,183 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:29:59,183 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:29:59,239 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:30:00,183 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:00,589 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:30:00,949 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:30:00,955 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:30:00,956 DEBUG   SenderThread:4187235 [sender.py:send():391] send: history
+2024-09-02 16:30:00,956 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:30:00,958 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:30:01,183 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:01,184 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:30:01,185 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/wandb-summary.json
+2024-09-02 16:30:01,285 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:30:01,290 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:30:01,294 DEBUG   SenderThread:4187235 [sender.py:send():391] send: history
+2024-09-02 16:30:01,294 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:30:01,294 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:30:02,183 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:02,185 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/wandb-summary.json
+2024-09-02 16:30:03,183 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:03,185 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:30:04,184 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:05,101 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:30:05,184 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:06,184 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:07,138 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:30:07,138 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:30:07,184 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:07,187 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:30:08,184 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:09,184 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:10,184 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:11,054 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:30:11,056 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:30:11,184 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:11,189 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:30:12,185 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:13,185 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:14,185 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:15,185 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:15,191 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:30:16,186 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:16,659 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:30:17,186 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:18,186 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:19,186 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:19,193 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:30:20,186 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:21,186 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:22,138 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:30:22,139 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:30:22,186 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:22,220 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:30:23,187 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:23,195 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:30:24,187 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:25,187 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:25,196 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:30:26,188 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:27,187 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:27,240 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:30:28,187 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:29,187 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:29,198 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:30:30,187 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:31,188 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:32,188 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:33,188 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:33,199 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:30:33,240 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:30:34,188 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:35,188 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:36,189 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:37,138 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: stop_status
+2024-09-02 16:30:37,139 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: stop_status
+2024-09-02 16:30:37,188 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:37,201 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:30:38,189 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:38,240 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:30:39,189 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:40,189 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:41,057 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:30:41,189 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:41,203 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:30:42,189 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:43,189 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:43,515 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:30:43,549 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:30:43,847 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:30:43,853 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:30:43,855 DEBUG   SenderThread:4187235 [sender.py:send():391] send: history
+2024-09-02 16:30:43,855 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:30:43,856 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:30:44,190 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:44,204 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/wandb-summary.json
+2024-09-02 16:30:44,225 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:30:44,231 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:30:44,232 DEBUG   SenderThread:4187235 [sender.py:send():391] send: history
+2024-09-02 16:30:44,232 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:30:44,233 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:30:44,518 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:30:44,880 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: partial_history
+2024-09-02 16:30:45,043 DEBUG   SenderThread:4187235 [sender.py:send():391] send: telemetry
+2024-09-02 16:30:45,044 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:30:45,045 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:30:45,047 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:30:45,048 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:30:45,049 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:30:45,049 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:30:45,049 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:30:45,050 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:30:45,051 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:30:45,051 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:30:45,052 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:30:45,053 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:30:45,053 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:30:45,054 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:30:45,190 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:45,205 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:30:45,205 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/wandb-summary.json
+2024-09-02 16:30:45,725 DEBUG   SenderThread:4187235 [sender.py:send():391] send: telemetry
+2024-09-02 16:30:45,768 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: server_info
+2024-09-02 16:30:45,768 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: server_info
+2024-09-02 16:30:45,816 DEBUG   SenderThread:4187235 [sender.py:send():391] send: exit
+2024-09-02 16:30:45,816 INFO    SenderThread:4187235 [sender.py:send_exit():598] handling exit code: 0
+2024-09-02 16:30:45,816 INFO    SenderThread:4187235 [sender.py:send_exit():600] handling runtime: 694
+2024-09-02 16:30:45,817 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:30:45,817 INFO    SenderThread:4187235 [sender.py:send_exit():606] send defer
+2024-09-02 16:30:45,818 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: defer
+2024-09-02 16:30:45,818 INFO    HandlerThread:4187235 [handler.py:handle_request_defer():184] handle defer: 0
+2024-09-02 16:30:45,818 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: defer
+2024-09-02 16:30:45,818 INFO    SenderThread:4187235 [sender.py:send_request_defer():622] handle sender defer: 0
+2024-09-02 16:30:45,818 INFO    SenderThread:4187235 [sender.py:transition_state():626] send defer: 1
+2024-09-02 16:30:45,818 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: defer
+2024-09-02 16:30:45,818 INFO    HandlerThread:4187235 [handler.py:handle_request_defer():184] handle defer: 1
+2024-09-02 16:30:45,819 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: defer
+2024-09-02 16:30:45,819 INFO    SenderThread:4187235 [sender.py:send_request_defer():622] handle sender defer: 1
+2024-09-02 16:30:45,819 INFO    SenderThread:4187235 [sender.py:transition_state():626] send defer: 2
+2024-09-02 16:30:45,819 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: defer
+2024-09-02 16:30:45,819 INFO    HandlerThread:4187235 [handler.py:handle_request_defer():184] handle defer: 2
+2024-09-02 16:30:45,819 INFO    HandlerThread:4187235 [system_monitor.py:finish():203] Stopping system monitor
+2024-09-02 16:30:45,819 DEBUG   SystemMonitor:4187235 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-09-02 16:30:45,819 DEBUG   SystemMonitor:4187235 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-09-02 16:30:45,823 INFO    HandlerThread:4187235 [interfaces.py:finish():200] Joined cpu monitor
+2024-09-02 16:30:45,824 INFO    HandlerThread:4187235 [interfaces.py:finish():200] Joined disk monitor
+2024-09-02 16:30:46,206 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/wandb-summary.json
+2024-09-02 16:30:47,206 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:30:48,314 INFO    HandlerThread:4187235 [interfaces.py:finish():200] Joined gpu monitor
+2024-09-02 16:30:48,315 INFO    HandlerThread:4187235 [interfaces.py:finish():200] Joined memory monitor
+2024-09-02 16:30:48,315 INFO    HandlerThread:4187235 [interfaces.py:finish():200] Joined network monitor
+2024-09-02 16:30:48,316 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-02 16:30:48,316 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: defer
+2024-09-02 16:30:48,317 INFO    SenderThread:4187235 [sender.py:send_request_defer():622] handle sender defer: 2
+2024-09-02 16:30:48,317 INFO    SenderThread:4187235 [sender.py:transition_state():626] send defer: 3
+2024-09-02 16:30:48,317 DEBUG   SenderThread:4187235 [sender.py:send():391] send: stats
+2024-09-02 16:30:48,317 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: defer
+2024-09-02 16:30:48,318 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: poll_exit
+2024-09-02 16:30:48,318 INFO    HandlerThread:4187235 [handler.py:handle_request_defer():184] handle defer: 3
+2024-09-02 16:30:48,320 DEBUG   SenderThread:4187235 [sender.py:send():391] send: history
+2024-09-02 16:30:48,320 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: summary_record
+2024-09-02 16:30:48,321 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:30:48,322 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: defer
+2024-09-02 16:30:48,322 INFO    SenderThread:4187235 [sender.py:send_request_defer():622] handle sender defer: 3
+2024-09-02 16:30:48,322 INFO    SenderThread:4187235 [sender.py:transition_state():626] send defer: 4
+2024-09-02 16:30:48,322 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: defer
+2024-09-02 16:30:48,322 INFO    HandlerThread:4187235 [handler.py:handle_request_defer():184] handle defer: 4
+2024-09-02 16:30:48,323 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: defer
+2024-09-02 16:30:48,323 INFO    SenderThread:4187235 [sender.py:send_request_defer():622] handle sender defer: 4
+2024-09-02 16:30:48,323 INFO    SenderThread:4187235 [sender.py:transition_state():626] send defer: 5
+2024-09-02 16:30:48,323 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: defer
+2024-09-02 16:30:48,323 INFO    HandlerThread:4187235 [handler.py:handle_request_defer():184] handle defer: 5
+2024-09-02 16:30:48,324 DEBUG   SenderThread:4187235 [sender.py:send():391] send: summary
+2024-09-02 16:30:48,325 INFO    SenderThread:4187235 [sender.py:_save_file():1466] saving file wandb-summary.json with policy end
+2024-09-02 16:30:48,325 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: defer
+2024-09-02 16:30:48,326 INFO    SenderThread:4187235 [sender.py:send_request_defer():622] handle sender defer: 5
+2024-09-02 16:30:48,326 INFO    SenderThread:4187235 [sender.py:transition_state():626] send defer: 6
+2024-09-02 16:30:48,326 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: defer
+2024-09-02 16:30:48,326 INFO    HandlerThread:4187235 [handler.py:handle_request_defer():184] handle defer: 6
+2024-09-02 16:30:48,326 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: defer
+2024-09-02 16:30:48,326 INFO    SenderThread:4187235 [sender.py:send_request_defer():622] handle sender defer: 6
+2024-09-02 16:30:48,333 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: status_report
+2024-09-02 16:30:48,493 INFO    SenderThread:4187235 [sender.py:transition_state():626] send defer: 7
+2024-09-02 16:30:48,493 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: defer
+2024-09-02 16:30:48,494 INFO    HandlerThread:4187235 [handler.py:handle_request_defer():184] handle defer: 7
+2024-09-02 16:30:48,494 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: defer
+2024-09-02 16:30:48,494 INFO    SenderThread:4187235 [sender.py:send_request_defer():622] handle sender defer: 7
+2024-09-02 16:30:48,817 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-02 16:30:49,029 INFO    SenderThread:4187235 [sender.py:transition_state():626] send defer: 8
+2024-09-02 16:30:49,029 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: poll_exit
+2024-09-02 16:30:49,029 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: defer
+2024-09-02 16:30:49,030 INFO    HandlerThread:4187235 [handler.py:handle_request_defer():184] handle defer: 8
+2024-09-02 16:30:49,030 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: defer
+2024-09-02 16:30:49,030 INFO    SenderThread:4187235 [sender.py:send_request_defer():622] handle sender defer: 8
+2024-09-02 16:30:49,031 INFO    SenderThread:4187235 [job_builder.py:build():443] Attempting to build job artifact
+2024-09-02 16:30:49,032 INFO    SenderThread:4187235 [job_builder.py:_get_source_type():572] is repo sourced job
+2024-09-02 16:30:49,039 INFO    SenderThread:4187235 [job_builder.py:build():548] adding wandb-job metadata file
+2024-09-02 16:30:49,047 INFO    SenderThread:4187235 [sender.py:transition_state():626] send defer: 9
+2024-09-02 16:30:49,047 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: defer
+2024-09-02 16:30:49,047 INFO    HandlerThread:4187235 [handler.py:handle_request_defer():184] handle defer: 9
+2024-09-02 16:30:49,047 DEBUG   SenderThread:4187235 [sender.py:send():391] send: artifact
+2024-09-02 16:30:49,207 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/config.yaml
+2024-09-02 16:30:49,208 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:30:49,208 INFO    Thread-48 :4187235 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/wandb-summary.json
+2024-09-02 16:30:49,325 INFO    SenderThread:4187235 [sender.py:send_artifact():1549] sent artifact job-git_github.com_EthanVeselka_Continual_Learning.git_Continual_Learning_tests_test.py - {'id': 'QXJ0aWZhY3Q6MTE2OTc2ODY3NA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE4MTA5MDI5NQ==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTE2OTc2ODY3NA==', 'versionIndex': 59}}}
+2024-09-02 16:30:49,325 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: defer
+2024-09-02 16:30:49,326 INFO    SenderThread:4187235 [sender.py:send_request_defer():622] handle sender defer: 9
+2024-09-02 16:30:49,326 INFO    SenderThread:4187235 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-09-02 16:30:49,818 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-02 16:30:50,209 INFO    SenderThread:4187235 [dir_watcher.py:finish():388] scan: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files
+2024-09-02 16:30:50,209 INFO    SenderThread:4187235 [dir_watcher.py:finish():402] scan save: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/wandb-summary.json wandb-summary.json
+2024-09-02 16:30:50,210 INFO    SenderThread:4187235 [dir_watcher.py:finish():402] scan save: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/wandb-metadata.json wandb-metadata.json
+2024-09-02 16:30:50,210 INFO    SenderThread:4187235 [dir_watcher.py:finish():402] scan save: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log output.log
+2024-09-02 16:30:50,215 INFO    SenderThread:4187235 [dir_watcher.py:finish():402] scan save: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/requirements.txt requirements.txt
+2024-09-02 16:30:50,215 INFO    SenderThread:4187235 [dir_watcher.py:finish():402] scan save: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/conda-environment.yaml conda-environment.yaml
+2024-09-02 16:30:50,215 INFO    SenderThread:4187235 [dir_watcher.py:finish():402] scan save: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/config.yaml config.yaml
+2024-09-02 16:30:50,216 INFO    SenderThread:4187235 [sender.py:transition_state():626] send defer: 10
+2024-09-02 16:30:50,216 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: poll_exit
+2024-09-02 16:30:50,216 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: defer
+2024-09-02 16:30:50,217 INFO    HandlerThread:4187235 [handler.py:handle_request_defer():184] handle defer: 10
+2024-09-02 16:30:50,217 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: defer
+2024-09-02 16:30:50,217 INFO    SenderThread:4187235 [sender.py:send_request_defer():622] handle sender defer: 10
+2024-09-02 16:30:50,217 INFO    SenderThread:4187235 [file_pusher.py:finish():169] shutting down file pusher
+2024-09-02 16:30:50,425 INFO    wandb-upload_0:4187235 [upload_job.py:push():130] Uploaded file /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/wandb-summary.json
+2024-09-02 16:30:50,469 INFO    wandb-upload_1:4187235 [upload_job.py:push():130] Uploaded file /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/output.log
+2024-09-02 16:30:50,483 INFO    wandb-upload_2:4187235 [upload_job.py:push():130] Uploaded file /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/requirements.txt
+2024-09-02 16:30:50,483 INFO    wandb-upload_4:4187235 [upload_job.py:push():130] Uploaded file /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/config.yaml
+2024-09-02 16:30:50,495 INFO    wandb-upload_3:4187235 [upload_job.py:push():130] Uploaded file /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/files/conda-environment.yaml
+2024-09-02 16:30:50,695 INFO    Thread-47 :4187235 [sender.py:transition_state():626] send defer: 11
+2024-09-02 16:30:50,696 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: defer
+2024-09-02 16:30:50,696 INFO    HandlerThread:4187235 [handler.py:handle_request_defer():184] handle defer: 11
+2024-09-02 16:30:50,696 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: defer
+2024-09-02 16:30:50,697 INFO    SenderThread:4187235 [sender.py:send_request_defer():622] handle sender defer: 11
+2024-09-02 16:30:50,697 INFO    SenderThread:4187235 [file_pusher.py:join():175] waiting for file pusher
+2024-09-02 16:30:50,697 INFO    SenderThread:4187235 [sender.py:transition_state():626] send defer: 12
+2024-09-02 16:30:50,697 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: defer
+2024-09-02 16:30:50,697 INFO    HandlerThread:4187235 [handler.py:handle_request_defer():184] handle defer: 12
+2024-09-02 16:30:50,698 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: defer
+2024-09-02 16:30:50,698 INFO    SenderThread:4187235 [sender.py:send_request_defer():622] handle sender defer: 12
+2024-09-02 16:30:50,698 INFO    SenderThread:4187235 [file_stream.py:finish():601] file stream finish called
+2024-09-02 16:30:50,819 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-02 16:30:50,885 INFO    SenderThread:4187235 [file_stream.py:finish():605] file stream finish is done
+2024-09-02 16:30:50,885 INFO    SenderThread:4187235 [sender.py:transition_state():626] send defer: 13
+2024-09-02 16:30:50,886 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: poll_exit
+2024-09-02 16:30:50,886 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: defer
+2024-09-02 16:30:50,886 INFO    HandlerThread:4187235 [handler.py:handle_request_defer():184] handle defer: 13
+2024-09-02 16:30:50,886 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: defer
+2024-09-02 16:30:50,887 INFO    SenderThread:4187235 [sender.py:send_request_defer():622] handle sender defer: 13
+2024-09-02 16:30:50,887 INFO    SenderThread:4187235 [sender.py:transition_state():626] send defer: 14
+2024-09-02 16:30:50,887 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: defer
+2024-09-02 16:30:50,887 DEBUG   SenderThread:4187235 [sender.py:send():391] send: final
+2024-09-02 16:30:50,887 INFO    HandlerThread:4187235 [handler.py:handle_request_defer():184] handle defer: 14
+2024-09-02 16:30:50,888 DEBUG   SenderThread:4187235 [sender.py:send():391] send: footer
+2024-09-02 16:30:50,888 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: defer
+2024-09-02 16:30:50,888 INFO    SenderThread:4187235 [sender.py:send_request_defer():622] handle sender defer: 14
+2024-09-02 16:30:50,889 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: poll_exit
+2024-09-02 16:30:50,889 DEBUG   SenderThread:4187235 [sender.py:send_request():418] send_request: poll_exit
+2024-09-02 16:30:50,890 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: internal_messages
+2024-09-02 16:30:50,891 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: get_summary
+2024-09-02 16:30:50,892 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: sampled_history
+2024-09-02 16:30:50,893 DEBUG   HandlerThread:4187235 [handler.py:handle_request():158] handle_request: shutdown
+2024-09-02 16:30:50,894 INFO    HandlerThread:4187235 [handler.py:finish():880] shutting down handler
+2024-09-02 16:30:51,890 INFO    WriterThread:4187235 [datastore.py:close():296] close: /home/grads/k/kingrc15/Continual_Learning/Continual_Learning/scripts/wandb/run-20240902_161909-dgtgrvzq/run-dgtgrvzq.wandb
+2024-09-02 16:30:51,890 INFO    SenderThread:4187235 [sender.py:finish():1631] shutting down sender
+2024-09-02 16:30:51,890 INFO    SenderThread:4187235 [file_pusher.py:finish():169] shutting down file pusher
+2024-09-02 16:30:51,890 INFO    SenderThread:4187235 [file_pusher.py:join():175] waiting for file pusher

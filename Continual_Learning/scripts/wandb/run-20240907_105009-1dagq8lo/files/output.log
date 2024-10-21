@@ -1,0 +1,103 @@
+
+Experiment dir: ./exp/Test_decomp_west
+[34m[1mwandb[39m[22m: [33mWARNING[39m No relevant files were detected in the specified directory. No code will be logged to your run.
+------------------------------------
+Task: 1, Epoch: 1
+Train: epoch: 1, loss = 0.11172156530199573
+Train: epoch: 1, loss = 0.12048641282017343
+Train: epoch: 1, loss = 0.11892796211487924
+Train: epoch: 1, loss = 0.11387321456044447
+Train: epoch: 1, loss = 0.10689963365555741
+Train: epoch: 1, loss = 0.10449061230950368
+Train: epoch: 1, loss = 0.10094105672008091
+Train: epoch: 1, loss = 0.0990595073151053
+Train: epoch: 1, loss = 0.09714853211901048
+Train: epoch: 1, loss = 0.0969614048981457
+Train: epoch: 1, loss = 0.09460281296630538
+Train: epoch: 1, loss = 0.09470903004769449
+Train: epoch: 1, loss = 0.09413996155658075
+Train: epoch: 1, loss = 0.09341271464087185
+Train: epoch: 1, loss = 0.09227969397796551
+Train: epoch: 1, loss = 0.09126860942769781
+Train: epoch: 1, loss = 0.0910768709763686
+Train: epoch: 1, loss = 0.0901891274653705
+Train: epoch: 1, loss = 0.0895175172529937
+Train: epoch: 1, loss = 0.08809304899784912
+Train: epoch: 1, loss = 0.0879246198250829
+Train: epoch: 1, loss = 0.08873842909510131
+Train: epoch: 1, loss = 0.08942377750418888
+Train: epoch: 1, loss = 0.08886358382424078
+Train: epoch: 1, loss = 0.08834269101574319
+Train: epoch: 1, loss = 0.08800114495461457
+Train: epoch: 1, loss = 0.0875521148227401
+Train: epoch: 1, loss = 0.08757481810496497
+Train: epoch: 1, loss = 0.08708363598137331
+Train: epoch: 1, loss = 0.08726578433956214
+Train: epoch: 1, loss = 0.08707911212095848
+Train: epoch: 1, loss = 0.08706913837509092
+Train: epoch: 1, loss = 0.0858874851504824
+Train: epoch: 1, loss = 0.0853505909380842
+Train: epoch: 1, loss = 0.08513953237577308
+Train: epoch: 1, loss = 0.08490691108411637
+Train: epoch: 1, loss = 0.08462757927009276
+Train: epoch: 1, loss = 0.08400593641346572
+Train: epoch: 1, loss = 0.08411316392502229
+Train: epoch: 1, loss = 0.08337614526086691
+Train: epoch: 1, loss = 0.08316686771301093
+Train: epoch: 1, loss = 0.0835308094756675
+Train: epoch: 1, loss = 0.08347059053663289
+Train:  Epoch 1, Loss=0.08322566643117128, AUC-ROC=0.8170891704593587, AUC-PR=0.15096090765084574
+-------------
+Eval task: 1
+Eval:  Epoch 1, Loss=0.08923861975299902, AUC-ROC=0.8451202908196533, AUC-PR=0.20656333742822253
+Eval task: 2
+Eval:  Epoch 1, Loss=0.19778954186316194, AUC-ROC=0.6839400695888658, AUC-PR=0.07669666731261406
+Ratio of skipped batches:  0.0
+-------------------------
+Testing task: 1
+-------------------------
+Test:  Epoch 1, Loss=0.09077151383048501, AUC-ROC=0.8562574401986539, AUC-PR=0.21857355349047358
+Ratio of skipped batches:  0.0
+-------------------------
+Testing task: 2
+-------------------------
+Test:  Epoch 1, Loss=0.2060754599756208, AUC-ROC=0.5965652995520716, AUC-PR=0.055601156367704706
+------------------------------------
+Task: 2, Epoch: 1
+Train: epoch: 1, loss = 0.13929896002868192
+Train: epoch: 1, loss = 0.13015215302002617
+Train: epoch: 1, loss = 0.1259824058638575
+Train: epoch: 1, loss = 0.12762999453523663
+Train: epoch: 1, loss = 0.12433067746227607
+Train: epoch: 1, loss = 0.12363473780957672
+Train: epoch: 1, loss = 0.12132447787128123
+Train: epoch: 1, loss = 0.11819348443066702
+Train: epoch: 1, loss = 0.11817723551170073
+Train: epoch: 1, loss = 0.1174986793815624
+Train: epoch: 1, loss = 0.11577421473762528
+Train: epoch: 1, loss = 0.11487714533519465
+Train: epoch: 1, loss = 0.11516957592111654
+Train: epoch: 1, loss = 0.11520396447673972
+Train: epoch: 1, loss = 0.11459526231574516
+Train: epoch: 1, loss = 0.11487316660874057
+Train: epoch: 1, loss = 0.11523544754394714
+Train: epoch: 1, loss = 0.11605262611966786
+Train: epoch: 1, loss = 0.1176271912225179
+Train: epoch: 1, loss = 0.11674097421648912
+Train: epoch: 1, loss = 0.11695581500884146
+Train:  Epoch 1, Loss=0.11774207942421948, AUC-ROC=0.7239034612402029, AUC-PR=0.16828804912011597
+-------------
+Eval task: 1
+Eval:  Epoch 1, Loss=0.09435962590164151, AUC-ROC=0.8515201276986363, AUC-PR=0.2121034726403483
+Eval task: 2
+Eval:  Epoch 1, Loss=0.11150694458649077, AUC-ROC=0.7803061510158374, AUC-PR=0.29047325505393545
+Ratio of skipped batches:  0.0
+-------------------------
+Testing task: 1
+-------------------------
+Test:  Epoch 1, Loss=0.08437095133684061, AUC-ROC=0.8326945641921957, AUC-PR=0.2738559575312335
+Ratio of skipped batches:  0.0
+-------------------------
+Testing task: 2
+-------------------------
+Test:  Epoch 1, Loss=0.1515519053771578, AUC-ROC=0.7235097384418492, AUC-PR=0.14959485330777256

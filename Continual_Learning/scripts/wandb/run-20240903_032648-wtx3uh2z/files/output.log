@@ -1,0 +1,130 @@
+
+[34m[1mwandb[39m[22m: [33mWARNING[39m No relevant files were detected in the specified directory. No code will be logged to your run.
+Experiment dir: ./exp/Test_los_south
+['/data/datasets/mimic3-benchmarks/data/length-of-stay', '/data/datasets/eICU2MIMIC/length-of-stay_split']
+val_listfile.csv
+south_val.csv
+test_listfile.csv
+south_test.csv
+train_listfile.csv
+------------------------------------
+Task: 1, Epoch: 1
+Train: epoch: 1, loss = 2.1794583910703658
+Train: epoch: 1, loss = 2.1386269226670267
+Train: epoch: 1, loss = 2.116108081936836
+Train: epoch: 1, loss = 2.0995506820082666
+Train: epoch: 1, loss = 2.086108345746994
+Train: epoch: 1, loss = 2.083427748978138
+Train: epoch: 1, loss = 2.077548915914127
+Train: epoch: 1, loss = 2.0767391031235456
+Train: epoch: 1, loss = 2.074301407072279
+Train: epoch: 1, loss = 2.071860736489296
+Train: epoch: 1, loss = 2.0701359539140354
+Train: epoch: 1, loss = 2.06845848629872
+Train: epoch: 1, loss = 2.0670534652013046
+Train: epoch: 1, loss = 2.064477199145726
+Train: epoch: 1, loss = 2.0619562781254452
+Train: epoch: 1, loss = 2.060113641768694
+Train: epoch: 1, loss = 2.0583106152450337
+Train: epoch: 1, loss = 2.0574351210395494
+Train: epoch: 1, loss = 2.0567105959277403
+Train: epoch: 1, loss = 2.0561287753283977
+Train: epoch: 1, loss = 2.0553636620442073
+Train: epoch: 1, loss = 2.054650897681713
+Train: epoch: 1, loss = 2.0541739280845808
+Train: epoch: 1, loss = 2.053879128843546
+Train: epoch: 1, loss = 2.0526966522932053
+Train: epoch: 1, loss = 2.0522588082689506
+Train: epoch: 1, loss = 2.052104498081737
+Train: epoch: 1, loss = 2.0528412956637996
+Train: epoch: 1, loss = 2.0521375253899343
+Train: epoch: 1, loss = 2.0515317490498224
+Train: epoch: 1, loss = 2.050481609182973
+Train: epoch: 1, loss = 2.050067839510739
+Train: epoch: 1, loss = 2.0504256663719813
+Train: epoch: 1, loss = 2.0502352579726892
+Train: epoch: 1, loss = 2.0500229026760373
+Train: epoch: 1, loss = 2.0492658555010954
+Train: epoch: 1, loss = 2.0492348293033804
+Train: epoch: 1, loss = 2.048941012260161
+Train: epoch: 1, loss = 2.048952521101022
+Train: epoch: 1, loss = 2.0488271613270044
+Train: epoch: 1, loss = 2.0486689990468143
+Train: epoch: 1, loss = 2.0486330320863497
+Train: epoch: 1, loss = 2.0483203809344492
+Train:  Epoch 1, Loss=2.0479033736092704, Cohen Kappa=0.37961001740321, MAD=0.7168953981111164
+-------------
+Eval task: 1
+Eval:  Epoch 1, Loss=2.035573057059584, Cohen Kappa=0.42385003439973845, MAD=0.7153601932336268
+Eval task: 2
+Eval:  Epoch 1, Loss=1.9264847204602997, Cohen Kappa=0.0025809570095739476, MAD=0.7543818682740209
+-------------------------
+Testing task: 1
+-------------------------
+Test:  Epoch 1, Loss=2.0526783980172256, Cohen Kappa=0.34208152319159435, MAD=0.717747046281176
+-------------------------
+Testing task: 2
+-------------------------
+Test:  Epoch 1, Loss=1.9186615923355366, Cohen Kappa=0.004176250513303725, MAD=0.7547124118387994
+south_train.csv
+------------------------------------
+Task: 2, Epoch: 1
+Train: epoch: 1, loss = 1.9268585860729217
+Train: epoch: 1, loss = 1.9341880151629447
+Train: epoch: 1, loss = 1.9363670535882314
+Train: epoch: 1, loss = 1.940219469219446
+Train: epoch: 1, loss = 1.9414298969507218
+Train: epoch: 1, loss = 1.939849206805229
+Train: epoch: 1, loss = 1.9397397663763591
+Train: epoch: 1, loss = 1.940989594683051
+Train: epoch: 1, loss = 1.940680910481347
+Train: epoch: 1, loss = 1.9410681264400482
+Train: epoch: 1, loss = 1.9397130072658713
+Train: epoch: 1, loss = 1.9397472531100115
+Train: epoch: 1, loss = 1.9407184870884968
+Train: epoch: 1, loss = 1.9416197440028191
+Train: epoch: 1, loss = 1.9418112340370814
+Train: epoch: 1, loss = 1.9420819486305119
+Train: epoch: 1, loss = 1.9412819616584216
+Train: epoch: 1, loss = 1.9418267189794116
+Train: epoch: 1, loss = 1.9423020179020731
+Train: epoch: 1, loss = 1.942543695986271
+Train: epoch: 1, loss = 1.942613516222863
+Train: epoch: 1, loss = 1.9426895982839845
+Train: epoch: 1, loss = 1.942375627471053
+Train: epoch: 1, loss = 1.941803995942076
+Train: epoch: 1, loss = 1.9416709520816804
+Train: epoch: 1, loss = 1.9419788769116768
+Train: epoch: 1, loss = 1.9418280571478383
+Train: epoch: 1, loss = 1.9421856249443121
+Train: epoch: 1, loss = 1.9424140353654993
+Train: epoch: 1, loss = 1.942581407268842
+Train: epoch: 1, loss = 1.943082938194275
+Train: epoch: 1, loss = 1.9431775146909058
+Train: epoch: 1, loss = 1.9431494489944343
+Train: epoch: 1, loss = 1.943288287397693
+Train: epoch: 1, loss = 1.9430830915996007
+Train: epoch: 1, loss = 1.9419563971128728
+Train: epoch: 1, loss = 1.9414002330077662
+Train: epoch: 1, loss = 1.94060565863785
+Train: epoch: 1, loss = 1.9394202820765667
+Train: epoch: 1, loss = 1.9381949977427722
+Train: epoch: 1, loss = 1.937173934506207
+Train: epoch: 1, loss = 1.9363373430853799
+Train: epoch: 1, loss = 1.9358439951580624
+Train:  Epoch 1, Loss=1.9352951552391051, Cohen Kappa=0.028716089799528333, MAD=0.6976210196844149
+-------------
+Eval task: 1
+Eval:  Epoch 1, Loss=2.0391732762599815, Cohen Kappa=0.33622968916786033, MAD=0.7220043506247475
+Eval task: 2
+Eval:  Epoch 1, Loss=1.9411079513615574, Cohen Kappa=0.13757424544038233, MAD=0.6889482161899501
+-------------------------
+Testing task: 1
+-------------------------
+Test:  Epoch 1, Loss=2.0611452604162284, Cohen Kappa=0.2386335044378184, MAD=0.722339458017871
+-------------------------
+Testing task: 2
+-------------------------
+Test:  Epoch 1, Loss=1.896894999619188, Cohen Kappa=0.04737271723894565, MAD=0.6909363409955886
+{'0': {'precision': 0.35834411384217335, 'recall': 0.13595092024539876, 'f1-score': 0.19711795054260803, 'support': 4075}, '1': {'precision': 0.21822921515687552, 'recall': 0.8181500872600349, 'f1-score': 0.3445538732911951, 'support': 2865}, '2': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1818}, '3': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1249}, '4': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 857}, '5': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 662}, '6': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 569}, '7': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 464}, '8': {'precision': 0.07617728531855955, 'recall': 0.04523026315789474, 'f1-score': 0.05675954592363261, 'support': 1216}, '9': {'precision': 0.18325176726481784, 'recall': 0.3140726933830382, 'f1-score': 0.23145604395604397, 'support': 1073}, 'accuracy': 0.22157866379310345, 'macro avg': {'precision': 0.08360023815824263, 'recall': 0.13134039640463666, 'f1-score': 0.08298874137134797, 'support': 14848}, 'weighted avg': {'precision': 0.15993667096941155, 'recall': 0.22157866379310345, 'f1-score': 0.14195679138256828, 'support': 14848}}
+{'0': {'precision': 0.39908256880733944, 'recall': 0.039171544349392164, 'f1-score': 0.07134071340713406, 'support': 4442}, '1': {'precision': 0.34869485682122003, 'recall': 0.9630781189273222, 'f1-score': 0.5120099178676585, 'support': 5146}, '2': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 2540}, '3': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 1301}, '4': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 527}, '5': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 305}, '6': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 189}, '7': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 110}, '8': {'precision': 0.09045226130653267, 'recall': 0.10227272727272728, 'f1-score': 0.096, 'support': 176}, '9': {'precision': 0.0, 'recall': 0.0, 'f1-score': 0.0, 'support': 112}, 'accuracy': 0.3467133620689655, 'macro avg': {'precision': 0.0838229686935092, 'recall': 0.11045223905494417, 'f1-score': 0.06793506312747925, 'support': 14848}, 'weighted avg': {'precision': 0.2413138538412008, 'recall': 0.3467133620689655, 'f1-score': 0.1999322795192255, 'support': 14848}}

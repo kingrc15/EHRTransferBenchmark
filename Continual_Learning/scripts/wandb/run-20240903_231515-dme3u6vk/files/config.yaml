@@ -1,0 +1,76 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    python_version: 3.9.13
+    cli_version: 0.17.7
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1725423315
+    t:
+      1:
+      - 1
+      - 5
+      - 41
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 41
+      - 53
+      - 55
+      3:
+      - 2
+      - 13
+      - 23
+      - 62
+      4: 3.9.13
+      5: 0.17.7
+      8:
+      - 5
+      13: linux-x86_64
+hidden_dim:
+  desc: null
+  value: 32
+num_layers:
+  desc: null
+  value: 1
+dropout_rate:
+  desc: null
+  value: 0.3
+bidirectional:
+  desc: null
+  value: true
+Buffer size:
+  desc: null
+  value: 3500
+EWC:
+  desc: null
+  value: false
+Importance:
+  desc: null
+  value: 0
+Replay:
+  desc: null
+  value: true
+test_batch_size:
+  desc: null
+  value: 256
+train_batch_size:
+  desc: null
+  value: 8
+learning_rate:
+  desc: null
+  value: 0.001
+weight_decay:
+  desc: null
+  value: 0
+Epochs:
+  desc: null
+  value: 1
+Tasks:
+  desc: null
+  value: 2
