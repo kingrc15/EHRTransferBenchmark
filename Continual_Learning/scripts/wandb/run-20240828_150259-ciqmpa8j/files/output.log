@@ -1,5 +1,0 @@
-
-[34m[1mwandb[39m[22m: [33mWARNING[39m No relevant files were detected in the specified directory. No code will be logged to your run.
-Experiment dir: ./exp/Test_ihm_west_baseline
-['/data/datasets/mimic3-benchmarks/data/in-hospital-mortality', '/data/datasets/eICU2MIMIC/ihm_split']
-------------------------------------
